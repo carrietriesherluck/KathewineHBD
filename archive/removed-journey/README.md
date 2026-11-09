@@ -1,0 +1,1 @@
+Our Journey was removed from the active birthday website at the user’s request. These original source and art files are historical references only. They are not imported, shown in navigation or included in the production website. The Final Letter is now chapter 06, directly after Photo Booth.

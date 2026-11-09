@@ -1,0 +1,60 @@
+{
+  "source": "User-edited Currently displayed worksheet, confirmed directly in user message",
+  "chapter_heading": "扭扭蛋坤器",
+  "simplified_subtitle": "我只想铭记这瞬间\n我们一起走过的光年",
+  "collection_heading": "🤏回（子）忆",
+  "collection_paragraph": "We have been through some crazyyyy shit.",
+  "rewards": [
+    {
+      "title": "The Shiterina Obituary",
+      "text": "你可能都没看过这个……为什么我做了这个呢……我烧烤了两周真的不知道.就当让我提前一百年锻炼一下",
+      "artifact": "obituary"
+    },
+    {
+      "title": "Cultivate Caner Cancellatoin",
+      "text": "大家都要禁止Caner，我们要unite and boyscott Caner. What is caner you ask, Mr. Gavin? Oh wait shit, we meant cancer.",
+      "artifact": "cancer"
+    },
+    {
+      "title": "终于露腿了",
+      "text": "许雅淇不长腿毛，只长扣的伤疤，所以我帮她买了光腿神器:) 你最近在扣嘛！！！！给我停下！！！要扣扣我的。谢谢奖励"
+    },
+    {
+      "title": "BANANANA MILK",
+      "text": "Don't want to become Stanley-like and end up hole-digging all year long? Don't want to get bullied at the Green Lake Camp by a kiddo with fractured glasses? We present to you BANANANA MILK\nsponsored by Holes 爱还有那个并没有送出去的坤坤香蕉",
+      "artifact": "milk"
+    },
+    {
+      "title": "KFC MC GAMERRRRR",
+      "text": "我们就这样继续玩mc，两个十四岁的大朋友就喜欢一人拿鼠标一人用键盘看到苦力怕找妈妈。哇啊啊啊啊啊啊啊我不知道为什么我想起了catapult。。。。"
+    },
+    {
+      "title": "Scratch scratch card",
+      "text": "越努力越幸运，愿你所想皆能如愿……有没有被我这个暖女暖到。提醒叮咚，halloween想再跟你扮一次鬼，答应人家好不好。"
+    },
+    {
+      "title": "A very naughty Tencent meeting",
+      "text": "主播今天来看看这两个人能不能date？ 瓜子脸特征太明显眼睛太大说明福气不好。手指很粗说明……嘴巴很红说明健将有力。总结只能doi不能date"
+    },
+    {
+      "title": "Guessing Game",
+      "text": "请在我的生日结束前submit ur answer 谢谢"
+    }
+  ],
+  "deletions": [
+    "02-08 collection panel label",
+    "02-16 handwritten annotation",
+    "02-22/23/24 all three status messages",
+    "02-25 visible collection dialog heading"
+  ],
+  "media_mapping": {
+    "1": "reward1.png",
+    "2": "reward2.png",
+    "3": "reward3.JPG",
+    "4": "reward4.png",
+    "5": "reward5.jpg",
+    "6": "reward6.JPG",
+    "7": "reward7.jpg",
+    "8": "reward8.JPG"
+  }
+}

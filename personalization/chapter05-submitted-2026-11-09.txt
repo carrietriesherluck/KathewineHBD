@@ -1,0 +1,219 @@
+05-01 — Chapter menu label
+Currently displayed: "Photo booth"
+Edit:
+-02 — Chapter number
+Currently displayed: "05"
+Edit:
+05-03 — Chapter heading
+Currently displayed: "Keep a little piece of us."
+Edit:”Say cheese!”
+05-04 — Chapter subtitle
+Currently displayed: "A photograph, a few stickers, a memory you can hold."
+Edit: “how to say 板凳 in English: Abandon…”
+05-05 — Background illustration
+Currently displayed: "One illustrated scrapbook border with a blue camera, three decorative empty paper frames, ribbon, pressed flowers, gingham tape, lace, scissors and a paperclip."
+Edit: 
+05-06 — Empty photograph area — first line
+Currently displayed: "A little space"
+Edit: delete 
+05-07 — Empty photograph area — second line
+Currently displayed: "for us."
+Edit: delete
+05-08 — Empty photograph area — instruction
+Currently displayed: "YOUR REAL PHOTOGRAPH GOES HERE" delete 
+Edit:
+05-09 — Empty photograph area — memory label
+Currently displayed: "An ordinary afternoon"; changes to the selected photograph’s label.
+Edit: delete 
+05-10 — Photograph-label fallback
+Currently displayed: "A favourite memory"
+Edit:
+05-11 — Default printed caption — also the caption field’s initial value
+Currently displayed: "you & me, in every chapter."
+Edit: “You and me (and ur friend Steve)”
+05-12 — Small text printed beneath the caption
+Currently displayed: "PESTY + CIDY · NOVEMBER 2026"
+Edit: Pesticide Nov 2026
+05-13 — Default sticker 1
+Currently displayed: "A blue bow near the upper-right corner of the print."
+Edit:
+05-14 — Default sticker 2
+Currently displayed: "A pink heart near the lower-left corner of the print."
+Edit: delete 
+05-15 — Handwritten annotation below the photograph
+Currently displayed: "a souvenir of our little world"
+Edit: delete
+05-16 — Photo editing tab
+Currently displayed: "01 photo"
+Edit:
+05-17 — Frame editing tab
+Currently displayed: "02 frame"
+Edit:
+05-18 — Stickers editing tab
+Currently displayed: "03 stickers"
+Edit:
+05-19 — Caption editing tab
+Currently displayed: "04 caption"
+Edit:
+05-20 — Shared editing-panel label
+Currently displayed: "the souvenir studio"
+Edit: the [Kaca.co](http://Kaca.co) studio
+05-21 — Photo panel heading
+Currently displayed: "Pick a memory."
+Edit:
+05-22 — Photograph 1 selection button
+Currently displayed: "01 An ordinary afternoon"
+Edit: 01 A loving evening with Katherine Clarinet BGM
+05-23 — Photograph 1 media slot
+Currently displayed: "An empty preset photograph slot. No image is attached."
+Edit: use photo
+05-24 — Photograph 2 selection button
+Currently displayed: "02 My favourite duo"
+Edit:  02 A demonic clarinet with its reed
+05-25 — Photograph 2 media slot
+Currently displayed: "An empty preset photograph slot. No image is attached."
+Edit: use photo 
+05-26 — Photograph 3 selection button
+Currently displayed: "03 Another birthday of us"
+Edit: 03 A pair of ghosts enslaved by SOIS ghost house
+05-27 — Photograph 3 media slot
+Currently displayed: "An empty preset photograph slot. No image is attached."
+Edit: use photo 
+05-28 — Local photograph upload button
+Currently displayed: "+ Add your own photo"
+Edit:
+05-29 — Local photograph upload slot
+Currently displayed: "One local image can replace the selected preset photograph. No initial upload is attached."
+Edit:
+05-30 — Note beneath the upload button
+Currently displayed: "Real photos only. Yours stays on your device."
+Edit:
+05-31 — Frame panel heading
+Currently displayed: "Choose your paper."
+Edit:
+05-32 — Frame option 1 — cream paper
+Currently displayed: "Classic cream"
+Edit:
+05-33 — Frame option 2 — blue paper
+Currently displayed: "Powder blue"
+Edit:
+05-34 — Frame option 3 — pink paper
+Currently displayed: "Dusty rose" 
+Edit: make the color a little bit more vibrant pink. A little bit. Should still be pastel like. but right now its too dull
+05-35 — Stickers panel heading
+Currently displayed: "A little personality."
+Edit:
+ 
+ FOR ALL STICKERS, USE IMAGE GENERATION TO GENERATE AN ACTUAL STICKER. DONT USE THE CURRENT LIKE GEOMETRIC SHAPES. 
+05-36 — Bow sticker option
+Currently displayed: "A blue bow. Accessibility label: Add bow sticker"
+Edit:
+05-37 — Heart sticker option
+Currently displayed: "A pink heart with a cream highlight and gold accents. Accessibility label: Add heart sticker"
+Edit:
+05-38 — Star sticker option
+Currently displayed: "A smiling gold star. Accessibility label: Add star sticker"
+Edit:
+05-39 — Flower sticker option
+Currently displayed: "A pink flower with a gold centre and green leaves. Accessibility label: Add flower sticker"
+Edit:
+05-40 — Penguin sticker option
+Currently displayed: "A navy-and-cream penguin wearing a gold crown. Accessibility label: Add penguin sticker"
+Edit:
+05-41 — Swimming sticker option CHANGE TO POOP
+Currently displayed: "An illustrated swimmer above blue waves. Accessibility label: Add wave sticker"
+Edit:
+05-42 — Sticker instructions
+Currently displayed: "Add one, then drag it on your photograph."
+Edit:
+05-43 — Sticker selector label
+Currently displayed: "Edit sticker"
+Edit:
+05-44 — Sticker selector placeholder
+Currently displayed: "Choose a sticker"
+Edit:
+05-45 — Sticker selector entries
+Currently displayed: "1. bow"; "2. heart"; additional entries use their number followed by "bow", "heart", "star", "flower", "penguin" or "wave".
+Edit:
+05-46 — Selected sticker — size control
+Currently displayed: "Size"
+Edit:
+05-47 — Selected sticker — rotation control
+Currently displayed: "Rotate"
+Edit:
+05-48 — Selected sticker — remove button
+Currently displayed: "Remove sticker"
+Edit:
+05-49 — Caption panel heading
+Currently displayed: "A few words."
+Edit:
+05-50 — Caption input label
+Currently displayed: "A caption to keep"
+Edit:
+05-51 — Empty caption input placeholder
+Currently displayed: "Write a little caption…"
+Edit:
+05-52 — Caption panel handwritten annotation
+Currently displayed: "something only we understand." Delete
+Edit:
+05-53 — Mobile editor return button
+Currently displayed: "Back to your photograph →"
+Edit:
+05-54 — Mobile editor dialog — accessibility title
+Currently displayed: "Edit photo"; "Edit frame"; "Edit stickers"; "Edit caption"
+Edit:
+05-55 — Mobile editor close button
+Currently displayed: "×" — accessibility label: "Close"
+Edit:
+05-56 — Photograph canvas — accessibility label before sticker selection
+Currently displayed: "Editable Polaroid. Select a sticker to move it."
+Edit:
+05-57 — Photograph canvas — accessibility label with a sticker selected
+Currently displayed: "Editable Polaroid. Use arrow keys to move the selected sticker."
+Edit:
+05-58 — Save button — ready state
+Currently displayed: "Save your keepsake ↓"
+Edit:
+05-59 — Save button — printing state
+Currently displayed: "Printing your keepsake… ↓"
+Edit:
+05-60 — Downloaded image filename
+Currently displayed: "pesty-and-cidy-keepsake.png"
+Edit:
+05-61 — Default export status
+Currently displayed: "A real photograph-sized PNG. Made by you."
+Edit:
+05-62 — Successful photograph upload message
+Currently displayed: "Your photo is ready. It stays in this browser session."
+Edit:
+05-63 — Upload error — unsupported file type
+Currently displayed: "Please choose an image file."
+Edit:
+05-64 — Upload error — file exceeds 20 MB
+Currently displayed: "Please choose a photo smaller than 20 MB."
+Edit:
+05-65 — Upload error — file cannot be read
+Currently displayed: "The image could not be read."
+Edit:
+05-66 — Photograph loading error
+Currently displayed: "That photograph couldn’t be loaded. Try choosing a local image."
+Edit:
+05-67 — Composition drawing error
+Currently displayed: "The composition couldn’t be drawn. Please try another photo."
+Edit:
+05-68 — Export error
+Currently displayed: "The image couldn’t be saved. Please try again."
+Edit:
+05-69 — Successful export message
+Currently displayed: "Your keepsake is ready. The PNG has been downloaded."
+Edit:
+05-70 — Previous chapter button
+Currently displayed: "← back" on desktop; "←" on phones.
+Edit:
+05-71 — Mobile chapter selector
+Currently displayed: "05 / 06 · Photo booth ⌄"
+Edit:
+05-72 — Next chapter button
+Currently displayed: "next chapter →" on desktop; "→" on phones.
+Edit:
+

@@ -1,0 +1,37 @@
+{
+  "mode": "Built-in image_gen",
+  "date": "2026-11-09",
+  "style": "Funny cartoon stickers, replacing textured versions at the user's request",
+  "assets": {
+    "bow": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-ec735bdb-babb-4700-8fc0-6a578912a4d6.png",
+      "file": "bow.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A floppy sky-blue ribbon bow with uneven silly loops and curled tails. The center knot has a tiny cheeky cross-eyed face and a tongue sticking out. The bow looks dramatically pleased with itself."
+    },
+    "heart": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-3956b3fc-4569-4527-aa15-9a923e6eddfe.png",
+      "file": "heart.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A bright pastel pink heart making a hilariously smug flirty face, one eyebrow lifted, one eye winking and a tiny sideways grin, little cartoon arms doing finger guns."
+    },
+    "star": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-6f238221-7666-415e-a716-ed01881b05ed.png",
+      "file": "star.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A buttery yellow five-point star with a ridiculously confident toothy grin, squinty cheerful eyes and tiny stick cartoon arms raised as if declaring victory, playful wonky points."
+    },
+    "flower": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-9e189c15-b5b0-4a4f-8d9c-bfa0de46bcd2.png",
+      "file": "flower.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A pink daisy with a yellow center sporting a very derpy wide-eyed grin, one comically bent petal and two small green leaves shaped like little waving hands."
+    },
+    "penguin": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-ebcb9b8c-09b9-486b-b483-0275b620cf1f.png",
+      "file": "penguin.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A chubby navy-and-cream cartoon penguin wearing a tiny crooked yellow crown, smug side-eye, orange tiny feet, flippers planted on hips, a very self-important silly expression."
+    },
+    "poop": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-32c69ac1-7324-4046-b28b-a2faba8a63a2.png",
+      "file": "poop.png",
+      "prompt": "Generate ONE funny expressive cartoon die-cut sticker for a playful birthday photo booth, isolated on a genuinely transparent background with alpha. Style: bold dark navy hand-drawn ink outline, clean flat cheerful pastel colors, simple cel shading only, deliberately goofy facial expression, crisp white vinyl sticker border. Charming 2D cartoon doodle, energetic and silly, like a fun illustrated sticker pack. Absolutely NO realistic texture, NO gouache, NO paper grain, NO fabric weave, NO photorealism, NO metallic or dimensional product rendering, NO scenery or extra background. No text, words or lettering. Whole subject and white border visible, centered square composition with comfortable transparent padding.\nSubject: A cheeky chocolate-brown cartoon poop swirl with huge mismatched googly eyes and an open silly grin sticking its tiny tongue out. Cute clean bathroom humor, broad bold outlines."
+    }
+  }
+}

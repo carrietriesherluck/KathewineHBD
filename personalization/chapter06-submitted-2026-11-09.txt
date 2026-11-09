@@ -1,0 +1,199 @@
+06-01 — Chapter menu label
+Currently displayed: "For my wifey"
+Edit:
+06-02 — Chapter number
+Currently displayed: "06"
+Edit:
+06-03 — Chapter heading
+Currently displayed: "I got all I need when I got you and I"
+Edit:
+06-04 — Chapter subtitle
+Currently displayed: "I'm stuck in the dark but you're my flashlight."
+Edit:
+06-05 — Decorative thread
+Currently displayed: "A curved thread-like line running behind the letter scene."
+Edit:
+06-06 — Opening message scene — label
+Currently displayed: "do you remember?"
+Edit:
+06-07 — Opening message scene — speaker
+Currently displayed: "Pesty · a little while ago"
+Edit:
+06-08 — Opening message scene — message
+Currently displayed: "啊啊啊对不起！我按错了……我是我们班的新生，，有点困惑害羞(Ｔ＿Ｔ)
+"
+Edit:
+06-09 — Opening message scene — handwritten annotation
+Currently displayed: "I think I knew, even then."
+Edit:
+06-10 — Opening message scene — continue button
+Currently displayed: "Keep reading →"
+Edit:
+06-11 — Envelope illustration
+Currently displayed: "One illustrated ivory envelope with stitched edges, blue gingham lining, a pressed daisy and botanical decoration, reused across its opening layers."
+Edit:
+06-12 — Letter peeking out of the envelope — greeting
+Currently displayed: "My dearest Cidy,"
+Edit:
+06-13 — Letter peeking out of the envelope — preview text
+Currently displayed: "Some things are too big for a message bubble."
+Edit:
+06-14 — Envelope address — small heading
+Currently displayed: "for my favourite person"
+Edit:
+06-15 — Envelope address — recipient
+Currently displayed: "Katherine"
+Edit: use a lighter more yellow like vibrance neon pink. But not a lot. 
+06-16 — Envelope address — closing annotation
+Currently displayed: "with love, always." Delete this
+Edit:
+06-17 — Envelope wax seal
+Currently displayed: “K+C"
+Edit:
+06-18 — Envelope button — accessibility label
+Currently displayed: "Open your birthday letter"
+Edit:
+06-19 — Open-letter button
+Currently displayed: "A letter, just for you. Open it →"
+Edit:
+06-20 — Open letter — desktop margin annotation
+Currently displayed: "for the girl I kisssssss big assh for.”
+Edit:
+06-21 — Open letter — desktop margin date
+Currently displayed: "9 November 2026"
+Edit:
+06-22 — Open letter — small heading
+Currently displayed: "for your seventeenth slave year”
+06-23 — Draft letter — first-page salutation
+Currently displayed: "My dearest Cidy,"
+Edit:
+06-24 — Draft letter — heading on continuation pages
+Currently displayed: "My dearest Cidy,"
+Edit:
+06-25 — Draft letter — paragraph 1
+Currently displayed: "icmeaicsawtwufm
+ticmo
+ttdttdtwnobb
+biflh
+tcstcsiasc
+idcidciilmm
+....wcliawtwd."
+Edit:
+06-26 — Draft letter — paragraph 2
+Currently displayed: "Happy Birthday to the most gorgeous and professionally ethical person in the entire world."
+Edit:
+06-27 — Draft letter — paragraph 3
+Currently displayed: “To take us down memory lane: here are some problems I was facing in 2024
+1 Katherine can’t stop singing When I was 13…
+2 Katherine can’t focus her eyes on ME!! ONLY!!!
+3 Katherine doesn’t FaceTime me anymore…”
+Edit:
+06-28 — Draft letter — paragraph 4
+Currently displayed: “And now in the current space and time, I will have to admit those three problems still hold truth. They need resolving because we have this relationship that is more squirmy than little m’s hand shake in Santa Tell Me.”
+Edit:
+06-29 — Draft letter — paragraph 5
+Currently displayed: “Your favorite milla is so proud of you learning how to wipe ur ass alone, how to eject snot, and how to lick ur milk mustache clean. All work I was supposed to do, but now atlas have retired. Essential life skills I hope you will remember for the rest of your life. 
+Edit:
+06-30 — Draft letter — paragraph 6
+Currently displayed: "For seventeen, I wish you room to grow in every single direction. Make beautiful things. Make disgusting jokes. Be proud of yourself. Clap your hands often (cuz If you're happy and you know it, clap your hands!) And know that wherever life takes you, there is somebody with great lab lab for u bathe.”
+Edit:
+06-31 — Heading on the final three letter pages
+Currently displayed: "And one more thing…"
+Edit:
+06-32 — Draft letter — ending page 1
+Currently displayed: "If I 重生了回到上网课的第一天， I would absolutely choose you all over again”
+Edit:
+06-33 — Draft letter — ending page 2
+Currently displayed: "This time, I would just 强吻你and stick my tongue down your throat.”
+Edit:
+06-34 — Draft letter — ending page 3
+Currently displayed: "Happy 17th birthday, wifey. ♡"
+Edit:
+06-35 — Final-page signature
+Currently displayed: "Always your Pesty,"
+Edit:
+06-36 — Final-page signature name
+Currently displayed: "Carrie"
+Edit:
+06-37 — Previous letter-page button
+Currently displayed: "←" — accessibility label: "Previous letter page"
+Edit:
+06-38 — Letter page counter
+Currently displayed: "Letter page 1 / 9" through "Letter page 9 / 9"; on short phones, "Letter page 1 / 14" through "Letter page 14 / 14".
+Edit:
+06-39 — Next letter-page button
+Currently displayed: "→" — accessibility label: "Next letter page"
+Edit:
+06-40 — Historical-letter button
+Currently displayed: "The letter from 2023 ↗"
+Edit:
+06-41 — Song button
+Currently displayed: "♫ Our song"
+Edit:
+06-42 — Replay button — revealed on the final page after the delay
+Currently displayed: "Replay our story ↺"
+Edit:
+06-43 — Historical-letter dialog — accessibility title
+Currently displayed: "The letter from May 20, 2023"
+Edit:
+06-44 — Historical-letter archive label
+Currently displayed: "from our personal archives"
+Edit:
+06-45 — Historical-letter archive heading
+Currently displayed: "May 20, 2023"
+Edit:
+06-46 — Historical-letter archive description
+Currently displayed: "Carrie’s original letter, preserved exactly as written"
+Edit:
+06-47 — Historical-letter media slot use the words, not image
+Currently displayed: "One empty image slot for the original May 20, 2023 letter. No file is attached."
+Edit: 
+This has been a while. The last time I wrote you a letter was on Christmas, and now all the Mi-Mis are outdated. So in order to give you a heart Mi-Mi, I'm here again. 
+First off, let me clear something up (in other words, I'm going to be Sirius Black before I become the greatest showman), And I know even without my Gucci and Louis Vuitton, I'd made you look). 
+Ok, chop chop, now that's over, ...... Ignore the pause, I'm trying to think of another Mi-Mi and 凑字数. Ok ok ok ok 好的, let's go 情感. I'm always thankful for you, a knucklehead that guesses my lyrics 完形填空 and for me to 训, and to tease me about ac. And to tell you the truth, I only have you, my big fish （插入尔康). <3 Yours,
+Carrier Wayne
+06-48 — Missing historical letter — heading
+Currently displayed: "Original OGGGGG Gang”
+Edit:
+06-49 — Missing historical letter — message
+Currently displayed: "Its place in our story is already saved." Delete 
+Edit:
+06-50 — Song dialog — accessibility title
+Currently displayed: "Our song"
+Edit:
+06-51 — Song dialog — small heading
+Currently displayed: "our golden thread"
+Edit:
+06-52 — Song dialog — song title
+Currently displayed: "Tightrope"
+Edit:
+06-53 — Song dialog — artist
+Currently displayed: "The Greatest Showman"
+Edit:
+06-54 — Song dialog — audio or embedded-player slot
+Currently displayed: "No audio file or embedded player is attached to this dialog. This is separate from the site’s supplied background music."
+Edit:
+06-55 — Song dialog — missing-recording message
+Currently displayed: "A place is saved for our song. The authorized recording hasn’t been added yet."
+Edit:
+06-56 — Song dialog — handwritten annotation
+Currently displayed: "The thread is here, even in the quiet."
+Edit:
+06-57 — Historical-letter and song dialogs — close button
+Currently displayed: "×" — accessibility label: "Close"
+Edit:
+06-58 — Previous chapter button
+Currently displayed: "← back" on desktop; "←" on phones.
+Edit:
+06-59 — Mobile chapter selector
+Currently displayed: "06 / 06 · For my wifey ⌄"
+Edit:
+06-60 — Disabled final chapter button
+Currently displayed: "always, Pesty ♡"
+Edit:
+06-62 — Transition when replaying or leaving the Final Letter
+Currently displayed: "turning the page…"
+Edit:
+06-63 — Chapter loading text
+Currently displayed: "opening the next little world…"
+Edit:

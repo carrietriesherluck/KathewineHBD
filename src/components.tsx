@@ -1,0 +1,21 @@
+import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { artifacts } from './content';
+import { useViewport, splitReading } from './lib';
+export function Modal({title,children,onClose,className='',focusKey}:{title:string;children:React.ReactNode;onClose:()=>void;className?:string;focusKey?:string}) {
+ const ref=useRef<HTMLDivElement>(null);const close=useRef(onClose);close.current=onClose;
+ useEffect(()=>{const prev=document.activeElement as HTMLElement;ref.current?.focus();const handler=(e:KeyboardEvent)=>{if(e.key==='Escape')close.current();if(e.key==='Tab'){const list=Array.from(ref.current?.querySelectorAll<HTMLElement>('button:not(:disabled),a[href],input,select,textarea,[tabindex="0"]')||[]).filter(el=>!el.closest('[hidden]')&&el.getClientRects().length>0);if(!list.length)return;const first=list[0],last=list[list.length-1];if(e.shiftKey&&(document.activeElement===first||document.activeElement===ref.current)){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}};document.addEventListener('keydown',handler);return()=>{document.removeEventListener('keydown',handler);prev?.focus();};},[]);
+ useEffect(()=>{ref.current?.focus();},[focusKey]);
+ return createPortal(<div className="modal-shade" onClick={e=>{if(e.target===e.currentTarget)onClose();}}><div className={`modal-paper ${className}`} role="dialog" aria-modal="true" aria-label={title} tabIndex={-1} ref={ref}><button className="close-button" onClick={onClose} aria-label="Close">×</button>{children}</div></div>,document.body);
+}
+export function PageControls({page,count,setPage,label='Page',disabled=false}:{page:number;count:number;setPage:(v:number)=>void;label?:string;disabled?:boolean}){return <div className="page-controls"><button onClick={()=>setPage(page-1)} disabled={disabled||page===0} aria-label={`Previous ${label.toLowerCase()}`}>←</button><span aria-live="polite">{label} {page+1} / {count}</span><button onClick={()=>setPage(page+1)} disabled={disabled||page===count-1} aria-label={`Next ${label.toLowerCase()}`}>→</button></div>}
+export function ReadingPages({text,className='',maxCharacters}:{text:string;className?:string;maxCharacters?:number}){const {width,height}=useViewport();const [page,setPage]=useState(0);const pages=splitReading(text,maxCharacters??(width<650?(height<740?220:340):650));useEffect(()=>setPage(0),[text,width,height]);return <div className={`reading-pages ${className}`}><p key={page}>{pages[Math.min(page,pages.length-1)]}</p>{pages.length>1&&<PageControls page={Math.min(page,pages.length-1)} count={pages.length} setPage={setPage}/>}</div>}
+function TextArtifact({text,heading}:{text:string;heading?:string}){
+ const {width,height}=useViewport();const limit=width<650?(height<620?90:height<740?140:220):(height<620?180:height<800?380:520);
+ return <div className="artifact-text">{heading&&<h4>{heading}</h4>}<ReadingPages text={text} maxCharacters={limit}/></div>;
+}
+export function Artifact({id,onImageClick}:{id:string;onImageClick?:(image:{src:string;alt:string})=>void}){
+ const a=artifacts[id];if(!a)return null;
+ return <div className="artifact-document"><span className="eyebrow">from our personal archives</span><h3>{a.title}</h3><p>{a.description}</p>{a.kind==='text'&&a.text?<TextArtifact text={a.text} heading={a.textHeading}/>:a.src?(a.kind==='pdf'?<><a className="button" href={a.src} target="_blank" rel="noreferrer">Open original document ↗</a><iframe title={a.title} src={a.src}/></>:<>{onImageClick?<button className="artifact-image-button" onClick={()=>onImageClick({src:a.src,alt:a.title})} aria-label={`Enlarge ${a.title}`}><img src={a.src} alt={a.title}/></button>:<img src={a.src} alt={a.title}/>}<a href={a.src} target="_blank" rel="noreferrer">View full-size original ↗</a></>):<div className="missing-artifact"><span>Original to come</span><p>Its place in our story<br/>is already saved.</p></div>}</div>;
+}
+export function SceneHeading({number,title,subtitle}:{number:number;title:string;subtitle:string}){return <header className="scene-heading"><span className="chapter-number">{String(number).padStart(2,'0')}</span><div><h1>{title}</h1>{subtitle&&<p>{subtitle}</p>}</div></header>}

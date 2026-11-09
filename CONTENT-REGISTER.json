@@ -1,0 +1,384 @@
+{
+  "chapter": "00",
+  "status": "implemented; awaiting review approval",
+  "source": "User-completed Now fields, 2026-11-06",
+  "reserved_themes": [
+    "deliberate online-school call",
+    "Professionality and Ethicalness.",
+    "pests and pesticide origin joke",
+    "future poop destiny",
+    "MIAH AYES",
+    "Chinese wrong-button excuse",
+    "new student: 困惑害羞",
+    "Nonchalant Carrie admission"
+  ],
+  "media_used": [
+    "Existing generated desktop illustration; no personal media added"
+  ],
+  "removed": [
+    "where it all began",
+    "the beginning of everything"
+  ],
+  "workflow": "Blank Edit means no change. Chapter 01 inventory only; no edits until completed worksheet returns.",
+  "chapter01": {
+    "status": "Personalized text and four media slots implemented; awaiting review approval",
+    "cover_edits": "No completed worksheet was included in attachment; existing wording preserved",
+    "media_slots": 4,
+    "themes": [
+      "Kaca Duo / Typhoon Culture",
+      "再也不会看到你下天桥啦 / 不带偷拍的",
+      "艺术细胞 / 左眼右眼 passage",
+      "private slave owner / plantation joke",
+      "5th Year / death insurance / trash talking"
+    ],
+    "text_changes": "Changed Currently displayed fields and explicit Edit instructions applied; deleted labels/captions/annotations omitted; page 5 paragraph moved into illustration area; page 6 illustration replaced with text.",
+    "media_status": "All 4 supplied originals inserted in corrected spread order",
+    "media": {
+      "01-IN-04": "chapter01-01-piano.png: User attachment.png; original bytes preserved",
+      "01-IN-10": "chapter01-02-mario.png: User attachmen2t.png; original bytes preserved",
+      "01-IN-16": "chapter01-03-restaurant.jpg: 21480.JPG; original bytes preserved",
+      "01-IN-22": "chapter01-04-planets.png: 3User attachment.png; original bytes preserved"
+    },
+    "caption_01_IN_17": "请寻找图文联系（找不到",
+    "chapter_heading": "My Baby Girl",
+    "chapter_subtitle": "我是你的气场 280 黄黑皮小狼勾",
+    "removed_cover_hint": "psst. the cover opens."
+  },
+  "chinese_typography": {
+    "font": "LXGW WenKai Regular / 霞鹜文楷",
+    "scope": "Chinese characters in display, reading and handwritten roles",
+    "bundled": true
+  },
+  "chapter_order": {
+    "00": "The Accidental Call",
+    "01": "Birthday Magazine",
+    "02": "Memory Capsule Machine",
+    "03": "Pesticide Passport",
+    "04": "Birthday Fortune Draw",
+    "05": "Photo Booth",
+    "06": "Final Letter"
+  },
+  "removed_chapters": [
+    {
+      "chapter": "Our Journey",
+      "former_number": "06",
+      "status": "Removed at user request; no content automatically relocated",
+      "archive": "archive/removed-journey"
+    }
+  ],
+  "final_letter": {
+    "number": "06",
+    "former_number": "07",
+    "status": "User-supplied complete letter and historical-letter text implemented; awaiting review approval"
+  },
+  "background_audio": {
+    "source": "ScreenRecording_11-06-2026 18-45-17_1.m4a",
+    "asset": "src/assets/audio/background-music.m4a",
+    "scope": "One shared player across all seven chapters; Tightrope then All of Me, repeating",
+    "original_bytes_preserved": true,
+    "duration_seconds": 229.416916,
+    "volume": 0.35,
+    "startup": "Enabled preference and actual playback separated. Defaults to enabled using katherine-sound-v2; blocked starts retry on the first page gesture or sound-button tap. Explicit mute persists.",
+    "playlist": [
+      {
+        "title": "Tightrope",
+        "source": "ScreenRecording_11-06-2026 18-45-17_1.m4a",
+        "asset": "src/assets/audio/background-music.m4a",
+        "duration_seconds": 229.416916
+      },
+      {
+        "title": "All of Me",
+        "source": "ScreenRecording_11-08-2026 22-30-11_1.m4a",
+        "asset": "src/assets/audio/all-of-me.m4a",
+        "duration_seconds": 265.171837
+      }
+    ],
+    "song_dialog": "Uses the same global player, with both tracks selectable; no overlapping player"
+  },
+  "chapter03": {
+    "status": "Personalized wording, requested deletions and all five photographs implemented; awaiting review approval",
+    "media": {
+      "1": "chapter03-01.jpg from 1.jpg; original bytes preserved; spread and reveal",
+      "2": "chapter03-02.jpg from 2.jpg; original bytes preserved; spread and reveal",
+      "3": "chapter03-03.jpg from 3.jpg; original bytes preserved; spread and reveal",
+      "4": "chapter03-04.jpg from 4.jpg; original bytes preserved; spread and reveal",
+      "5": "chapter03-05.jpg from 5.jpg; original bytes preserved; spread and reveal"
+    },
+    "text_edits": {
+      "source": "personalization/chapter03-submitted-2026-11-08.txt",
+      "method": "Personalized Currently displayed wording applied exactly; explicit Edit overrides honored",
+      "03-03": "成功拿到流动黄旗",
+      "03-05": "Margin annotation removed",
+      "03-06": "Katherine y Carrie",
+      "03-08": "x",
+      "03-10": "REPUBLIC OF Katheridy",
+      "03-12": "Mrs. Xu and Mrs. Xu",
+      "deleted": "Subtitle, cover opening hint, closed-cover caption, all five photo captions, obsolete missing-photo note"
+    },
+    "review": "Copy/render/interaction-handler and build checks passed; fresh browser screenshots and viewport measurement unavailable",
+    "wording_authorization": "User confirmed: Apply the personalized wording in the attachment too",
+    "themes": [
+      "Katheridy / Mrs. Xu and Mrs. Xu",
+      "Katherine of Aragon / ancient-history joke",
+      "Emerald PE shirt and pink cheeks in the Teams call",
+      "Long flippy hair and delayed offline recognition",
+      "8H / 9N / 9O classes, maths and every lunch break",
+      "Grossman and Burnham 深情唱歌",
+      "Five birthdays / adultfying and oldifying"
+    ]
+  },
+  "chapter02": {
+    "status": "Personalized copy, eight reward photographs and three archives implemented; awaiting review approval",
+    "source": "User-edited Currently displayed worksheet; personalization/chapter02-applied-content.json",
+    "heading": "扭扭蛋坤器",
+    "subtitle": "我只想铭记这瞬间\n我们一起走过的光年",
+    "media": {
+      "1": {
+        "original": "reward1.png",
+        "asset": "src/assets/personal/chapter02-reward-01.png",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot",
+          "original archive"
+        ],
+        "original_bytes_preserved": true
+      },
+      "2": {
+        "original": "reward2.png",
+        "asset": "src/assets/personal/chapter02-reward-02.png",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot",
+          "original archive"
+        ],
+        "original_bytes_preserved": true
+      },
+      "3": {
+        "original": "reward3.JPG",
+        "asset": "src/assets/personal/chapter02-reward-03.jpg",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot"
+        ],
+        "original_bytes_preserved": true
+      },
+      "4": {
+        "original": "reward4.png",
+        "asset": "src/assets/personal/chapter02-reward-04.png",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot",
+          "original archive"
+        ],
+        "original_bytes_preserved": true
+      },
+      "5": {
+        "original": "reward5.jpg",
+        "asset": "src/assets/personal/chapter02-reward-05.jpg",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot"
+        ],
+        "original_bytes_preserved": true
+      },
+      "6": {
+        "original": "reward6.JPG",
+        "asset": "src/assets/personal/chapter02-reward-06.jpg",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot"
+        ],
+        "original_bytes_preserved": true
+      },
+      "7": {
+        "original": "reward7.jpg",
+        "asset": "src/assets/personal/chapter02-reward-07.jpg",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot"
+        ],
+        "original_bytes_preserved": true
+      },
+      "8": {
+        "original": "reward8.JPG",
+        "asset": "src/assets/personal/chapter02-reward-08.jpg",
+        "placements": [
+          "reward reveal",
+          "collected desktop slot",
+          "collected mobile slot"
+        ],
+        "original_bytes_preserved": true
+      }
+    },
+    "reward_titles": [
+      "The Shiterina Obituary",
+      "Cultivate Caner Cancellatoin",
+      "终于露腿了",
+      "BANANANA MILK",
+      "KFC MC GAMERRRRR",
+      "Scratch scratch card",
+      "A very naughty Tencent meeting",
+      "Guessing Game"
+    ],
+    "reserved_themes": [
+      "Shiterina Obituary / advance obituary joke",
+      "Cultivate Caner Cancellatoin / Gavin proofreading joke",
+      "Leg scars / 光腿神器 / stop picking joke",
+      "Holes / Camp Green Lake / BANANANA MILK / unsent banana",
+      "KFC Minecraft / shared mouse and keyboard / catapult",
+      "Scratch cards / Halloween ghost costumes",
+      "Tencent meeting / date compatibility joke",
+      "Birthday guessing game / handwritten song clues"
+    ],
+    "deletions": [
+      "02-08 collection panel label",
+      "02-16 handwritten annotation",
+      "02-22/23/24 all three status messages",
+      "02-25 visible collection dialog heading"
+    ],
+    "illustrations": "All reward illustrations replaced. Existing machine and moving capsule design preserved.",
+    "archives": "Rewards 1, 2 and 4 use matching supplied original images; no empty Chapter 02 archive slots remain",
+    "verification": "Builds, copy/image mappings, pagination and mocked enlargement/close/focus checks passed; browser screenshots and measured viewport checks unavailable",
+    "photo_enlargement": "All eight reward photographs and three archive images can open a larger, uncropped view; closing returns to the same memory and reading page."
+  },
+  "ui_revisions": [
+    {
+      "date": "2026-11-09",
+      "source": "User annotated screenshot",
+      "chapter01_heading": "My Baby Girl",
+      "chapter01_subtitle": "我是你的气场 280 黄黑皮小狼勾",
+      "removed": [
+        "Magazine cover hint",
+        "Shared desktop footer annotation"
+      ],
+      "sidebar": "Signature and About action in a dedicated bottom row; shorter panels reduce decorations",
+      "status": "Implemented; fresh browser visual review unavailable"
+    }
+  ],
+  "chapter05": {
+    "status": "Worksheet text, three photographs, adaptive Polaroid frame and six cartoon stickers implemented; awaiting review approval",
+    "source": "personalization/chapter05-submitted-2026-11-09.txt; user follow-up requesting a frame matching each photo and funny cartoon stickers",
+    "heading": "Say cheese!",
+    "subtitle": "how to say 板凳 in English: Abandon…",
+    "default_caption": "You and me (and ur friend Steve)",
+    "printed_footer": "Pesticide Nov 2026",
+    "studio": "the Kaca.co studio",
+    "photos": {
+      "01": "chapter05-01.jpg from 01.JPG; A loving evening with Katherine Clarinet BGM",
+      "02": "chapter05-02.jpg from 02.JPG; A demonic clarinet with its reed",
+      "03": "chapter05-03.jpg from 03.jpg; A pair of ghosts enslaved by SOIS ghost house"
+    },
+    "frame": "Paper and PNG dimensions adapt to the whole photo; original bytes and proportions preserved",
+    "pink": "#f4c4d3",
+    "stickers": [
+      "bow",
+      "heart",
+      "star",
+      "flower",
+      "penguin",
+      "poop"
+    ],
+    "sticker_generation": "Built-in image_gen; transparent cartoon PNGs; src/assets/stickers/GENERATION.json contains final prompts and saved paths",
+    "removed": [
+      "Empty-photo captions and selected-label overlay",
+      "Default heart",
+      "Photograph annotation",
+      "Caption handwritten annotation",
+      "Wave sticker option (replaced with poop)"
+    ],
+    "saved_progress": "Versioned caption/sticker storage imports previous customizations; default caption/heart and wave migrate to new content",
+    "reserved_themes": [
+      "Board/Abandon pun",
+      "You and me and ur friend Steve",
+      "Kaca.co studio",
+      "Clarinet video calls / mirrored heart gesture / demonic filter",
+      "SOIS ghost house costumes"
+    ],
+    "verification": "Builds and mock canvas/interaction/export checks passed; fresh browser screenshot and live viewport measurement unavailable"
+  },
+  "chapter04": {
+    "status": "Personalized introduction and all six fortunes implemented; awaiting review approval",
+    "source": "personalization/chapter04-submitted-2026-11-09.txt",
+    "applied_copy": "personalization/chapter04-applied-content.json",
+    "heading": "球球器去球.",
+    "subtitle": "Professor Sybill Trelawney strikes again with her magic crystal ball",
+    "fortune_titles": [
+      "Disconnected “much?",
+      "In One and a Half Year",
+      "早睡到底有多难",
+      "Viva La vida",
+      "The Answer is Yes",
+      "Run"
+    ],
+    "deleted": [
+      "04-08 introductory handwritten annotation",
+      "04-25 first fortune closing (marked Can delete)",
+      "04-28/31/34/37/40 other fortune closings"
+    ],
+    "preserved": "Existing pot, thirteen animated sticks, button/status labels, six-fortune order and saved draw counter",
+    "layout": "Longer introduction and fortune text paginated; mobile introduction visible beside vessel",
+    "reserved_themes": [
+      "Sybill Trelawney / Divination Period / Grim / trials and happiness",
+      "Disconnected karaoke choice / 2019 music taste",
+      "Pacific institution email / seventeen minutes / laundry and tuition",
+      "Early bedtime overtaken by six-person conversation",
+      "An ordinary good day without a catch",
+      "The Answer is Yes / 黑切白",
+      "Run / …….."
+    ],
+    "verification": "Exact-copy, render/handler, pagination, saved-progress and builds passed; browser screenshots and live viewport checks unavailable",
+    "stick_selection": "Fixed hard-coded 07: all thirteen physical sticks are selectable, each maps consistently to one of six written fortunes, reveal number matches the selected stick, original fortune sequence retained"
+  },
+  "bug_fixes": [
+    {
+      "date": "2026-11-09",
+      "issues": [
+        "Fortune always raised stick 07",
+        "Background music could silently switch itself off after a blocked start"
+      ],
+      "status": "Implemented and automated checks passed; live browser playback unavailable"
+    }
+  ],
+  "chapter06": {
+    "status": "Completed worksheet and supplied historical-letter text implemented; awaiting review approval",
+    "source": "personalization/chapter06-submitted-2026-11-09.txt",
+    "applied_copy": "personalization/chapter06-applied-content.json",
+    "heading": "I got all I need when I got you and I",
+    "subtitle": "I'm stuck in the dark but you're my flashlight.",
+    "seal": "K+C",
+    "recipient_color": "#dd6985",
+    "historical_letter": {
+      "date": "May 20, 2023 (existing user-specified archive date)",
+      "kind": "Text supplied by user; no image invented",
+      "heading": "Original OGGGGG Gang"
+    },
+    "preserved": "Exact user wording, cipher/list/historical line breaks; other blank Edit content; envelope animation, signature, replay and chapter navigation",
+    "deleted": [
+      "06-16 envelope closing annotation",
+      "06-49 missing historical-letter message"
+    ],
+    "page_counts": {
+      "desktop_and_tall_phone": 9,
+      "short_phone": 12
+    },
+    "reserved_themes": [
+      "Flashlight / cipher opening",
+      "Professionally ethical birthday greeting",
+      "2024 singing / focus / FaceTime list",
+      "Santa Tell Me handshake joke",
+      "Milla retirement / essential life skills",
+      "Seventeenth year / clap hands / lab lab",
+      "Rebirth and choosing Katherine again",
+      "2023 Mi-Mis / Sirius Black / Greatest Showman / Gucci and Louis Vuitton / lyrics 完形填空 / big fish / Carrier Wayne"
+    ],
+    "intentional_reuse": "Opening call dialogue deliberately echoes Chapter 00 at the user’s request",
+    "verification": "Copy, paging, interaction-handler, playlist and build checks passed; live browser screenshot/playback unavailable"
+  }
+}

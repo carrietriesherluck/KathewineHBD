@@ -1,0 +1,36 @@
+{
+  "mode": "Built-in image_gen",
+  "date": "2026-11-09",
+  "assets": {
+    "bow": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-26fd67b6-def7-4c03-9da1-2e303cf7b9fa.png",
+      "file": "bow.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: A sumptuous powder blue satin ribbon bow, elegant folded loops and trailing ribbon tails, visible fabric weave."
+    },
+    "heart": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-49f72459-731e-4e30-9b60-b7f5fbab6539.png",
+      "file": "heart.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: A blush pink puffy heart with a creamy pearlescent highlight, a tiny warm gold sparkle accent integrated in the die-cut outline."
+    },
+    "star": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-2b1f91b0-9cc7-4c44-8ca5-a9997b0eeaf1.png",
+      "file": "star.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: A warm buttery gold five-point star, soft rounded organic edges, a small friendly hand-painted smiling face."
+    },
+    "flower": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-455345fc-2bfb-43c0-abeb-0f2611274f8c.png",
+      "file": "flower.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: A pale pink daisy-like flower, golden textured centre and two little sage green leaves, delicate petals."
+    },
+    "penguin": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-c763d14d-b9d7-4d2b-a116-f1f0f2dbc148.png",
+      "file": "penguin.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: An adorable navy-and-cream penguin wearing a small antique gold crown, soft downy feather texture, orange tiny beak and feet."
+    },
+    "poop": {
+      "source": "/Users/carriewong/.codex/generated_images/01a1a4c1-09b2-77d1-a128-c26d81bcb01e/exec-f4c80fbf-205d-4d4d-b897-cbf8de5762bc.png",
+      "file": "poop.png",
+      "prompt": "Create ONE premium physical die-cut scrapbook sticker, isolated and centered, no text or letters, no extra motifs. Style: tactile hand-painted gouache with delicate paper grain, soft dimensional highlights and a clean ivory cut-paper border, slightly raised sticker edge, coherent vintage sage/ivory/cranberry/powder-blue birthday scrapbook aesthetic. Detailed organic brushwork, convincing material texture, NOT a flat vector icon, NOT geometric clip art. Square composition with the entire sticker visible and generous transparent padding, no backdrop or rectangular paper. Genuine transparent background with alpha.\nSubject: A playful smiling chocolate-brown poop swirl mascot, clearly a poop sticker, rounded three-tier soft swirl, friendly tiny face, warm hand-painted texture, cute and clean humor."
+    }
+  }
+}

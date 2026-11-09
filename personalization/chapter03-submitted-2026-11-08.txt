@@ -1,0 +1,191 @@
+03-01 — Chapter menu label
+Currently displayed: "Our passport"
+Edit:
+03-02 — Chapter number
+Currently displayed: "03"
+Edit:
+03-03 — Chapter heading
+Currently displayed: “成功拿到流动黄旗
+Edit:
+03-04 — Chapter subtitle
+Currently displayed: "" delete
+Edit:
+03-05 — Desktop annotation beside the closed passport
+Currently displayed: "two jail mates at Camp Green Lake“
+Edit: delete
+03-06 — Travel ticket names
+Currently displayed: “Katherine y Carrie“
+Edit:
+03-07 — Travel ticket destination
+Currently displayed: "destination: everywhere"
+Edit:
+03-08 — Travel ticket validity
+Currently displayed: "one-way · lifetime validity" delete
+Edit: x 
+03-09 — Passport cover illustration
+Currently displayed: "A generated navy leather passport cover with worn edges, gold botanical ornamentation and penguin artwork."
+Edit:
+03-10 — Passport cover country
+Currently displayed: "REPUBLIC OF Katheridy” 
+Edit:
+03-11 — Passport cover title
+Currently displayed: "PASSPORT"
+Edit:
+03-12 — Passport cover names
+Currently displayed: “Mrs. Xu and Mrs. Xu”
+Edit:
+03-13 — Passport cover opening hint
+Currently displayed: "tap to enter our little world" delete 
+Edit:
+03-14 — Passport cover button — accessibility label
+Currently displayed: "Open the Pesticide passport"
+Edit:
+03-15 — Caption below the closed passport
+Currently displayed: "No borders. Very questionable documentation." Delete 
+Edit:
+03-16 — Shared heading on the left interior pages
+Currently displayed: "republic of pesticide"
+Edit:
+03-17 — Spread 1 illustration — also shown in its keepsake reveal use the photo
+Currently displayed: "A blue shield-shaped crest with a heart, gold details and decorative branches. No personal photograph is attached."
+ 03-18 — Spread 1 illustration caption
+Currently displayed: "the two of us" delete for every spread page
+Edit:
+03-19 — Spread 1 left-page note — also included in its keepsake reveal
+Currently displayed: "Katherine · 09 November 2009 Seventeenth birthday · 20261109
+Edit:
+03-20 — Spread 1 right-page label
+Currently displayed: "identity document"
+Edit:
+03-21 — Spread 1 heading — also used as its keepsake reveal heading
+Currently displayed: "The Katherine of Aragon  
+Edit:
+03-22 — Spread 1 paragraph — also included in its keepsake reveal
+Currently displayed: “Katherine, owner of Shibao and Cidy. Born 1900 11 09. Witnessed the great fall of Rome and the 911 tower collapse. Witnessed Hawking becoming a wheelchair erection. Witnessed the birth of Madame Zeroni.”
+Edit:
+03-23 — Spread 1 clickable stamp
+Currently displayed: "LIFETIME MEMBERS"
+Edit:
+03-24 — Spread 1 keepsake reveal — photograph note use the same photo as 03-17
+Currently displayed: "A space is saved for a real photo of the duo." 
+Edit:
+03-25 — Spread 2 illustration — also shown in its keepsake reveal
+Currently displayed: "A blue laptop displaying an illustrated profile and text lines."
+Edit: use the photo instead 
+03-26 — Illustration caption on spreads 2–5
+Currently displayed: "filed under: us"
+Edit:
+03-27 — Spread 2 left-page note — also included in its keepsake reveal
+Currently displayed: "Place of entry: Online Microsoft Teams  Purpose of visit: friendship + dominatrix“
+Edit:
+03-28 — Spread 2 right-page label
+Currently displayed: "port of entry"
+Edit:
+03-29 — Spread 2 heading — also used as its keepsake reveal heading
+Currently displayed: "One “accidental” call"
+Edit:
+03-30 — Spread 2 paragraph — also included in its keepsake reveal
+Currently displayed: “I have a very vivid picture of you in your emerald pe shirt and ur cheeks pink with exhaustion in that teams video box. I think I fell in love then and there, deciding promptly to call u accidentally.”
+Edit:
+03-31 — Spread 2 clickable stamp
+Currently displayed: "PREMEDITATED"
+Edit:
+03-32 — Spread 3 illustration — also shown in its keepsake reveal
+Currently displayed: "A navy-and-cream penguin wearing a gold crown." Use the photo
+Edit:
+03-33 — Spread 3 left-page note — also included in its keepsake reveal
+Currently displayed: "Facial recognition: TEMPORARY FAILED Friendship recognition: successful"
+Edit:
+03-34 — Spread 3 right-page label
+Currently displayed: "offline arrival"
+Edit:
+03-35 — Spread 3 heading — also used as its keepsake reveal heading
+Currently displayed: "Have we met?"
+Edit:
+03-36 — Spread 3 paragraph — also included in its keepsake reveal
+Currently displayed: “Now, in my defense. In my defense… I thought u had short hair, so when I saw a group member with long flippy hair, I didn’t dare approach you. It took me an entire day to recognize you. (Only after I confirmed with you offline that very afternoon….) Punish me Daddy..”
+Edit:
+03-37 — Spread 3 clickable stamp
+Currently displayed: "IDENTITY VERIFICATION FAILED"
+Edit:
+03-38 — Spread 4 illustration — also shown in its keepsake reveal
+Currently displayed: "A table holding a laptop with a block-style game on its screen, beside a striped carton of fries." Use the photo 
+Edit:
+03-39 — Spread 4 left-page note — also included in its keepsake reveal
+Currently displayed: “Going to math class with my favorite person Baggage: approximately a thousand inside jokes" 
+Edit:
+03-40 — Spread 4 right-page label
+Currently displayed: "residency record"
+Edit:
+03-41 — Spread 4 heading — also used as its keepsake reveal heading
+Currently displayed: "The inseparable years"
+Edit:
+03-42 — Spread 4 paragraph — also included in its keepsake reveal
+Currently displayed: “8H - like snot and glue together inseparable. All the classes, including Grossman revolting ones and Burnham 深情唱歌ones. 9N/9O - still tight as fungi to ur butthole, every lunch break, every single one!”
+Edit:
+03-43 — Spread 4 clickable stamp
+Currently displayed: "ADMITTED TOGETHER"
+Edit:
+03-44 — Spread 5 illustration — also shown in its keepsake reveal 
+Currently displayed: "A pink birthday cake with cream icing and two lit blue candles."
+Edit:use the photo
+03-45 — Spread 5 left-page note — also included in its keepsake reveal
+Currently displayed: "13 → 14 → 15 → 16 → 17 Next destination: all the years ahead"
+Edit:
+03-46 — Spread 5 right-page label
+Currently displayed: "birthday visas" 
+Edit:
+03-47 — Spread 5 heading — also used as its keepsake reveal heading
+Currently displayed: "Five birthdays marking our adultfying and oldifying”
+Edit:
+03-48 — Spread 5 paragraph — also included in its keepsake reveal
+Currently displayed: “With You. With You. With You. With You. With You…”
+Edit:
+03-49 — Spread 5 clickable stamp
+Currently displayed: "VALID ACROSS DISTANCE"
+Edit:
+03-50 — Small text beneath every clickable stamp
+Currently displayed: "PESTY & CIDY · 09 NOV 2026"
+Edit:
+03-51 — Keepsake button on every desktop left page
+Currently displayed: "Open keepsake ↗"
+Edit:
+03-52 — Decorative passport code on every desktop left page
+Currently displayed: "P<PESTICIDE<<CIDY<PESTY<<< 09112026<<FOREVER<<017<<<<"
+Edit:
+03-53 — Interior page numbers
+Currently displayed: "01; 02; 03; 04; 05"
+Edit:
+03-54 — Previous spread control
+Currently displayed: "← (accessibility label: Previous spread)"
+Edit:
+03-55 — Spread counter
+Currently displayed: "Spread 1 / 5" through "Spread 5 / 5"
+Edit:
+03-56 — Next spread control
+Currently displayed: "→ (accessibility label: Next spread)"
+Edit:
+03-57 — Keepsake reveal close button
+Currently displayed: "× (accessibility label: Close)"
+Edit:
+03-58 — Keepsake reveal reading controls — when its text needs multiple pages
+Currently displayed: "←"; "Page 1 / 2"; "Page 2 / 2"; "→"
+Edit:
+03-59 — Personal media slots
+Currently displayed: "0 implemented photograph, screenshot or document slots. The passport currently uses one generated cover illustration and five reusable interior illustrations. The real-photo note on spread 1 is text only."
+Edit:
+03-60 — Previous chapter button
+Currently displayed: "← back" on desktop; "←" on phones.
+Edit:
+03-61 — Mobile chapter selector
+Currently displayed: "03 / 07 · Our passport ⌄"
+Edit:
+03-62 — Next chapter button
+Currently displayed: "next chapter →" on desktop; "→" on phones.
+Edit:
+03-63 — Chapter transition text
+Currently displayed: "turning the page…"
+Edit:
+03-64 — Chapter loading text
+Currently displayed: "opening the next little world…"
+Edit:
