@@ -419,5 +419,10 @@
     "preserved": "Visuals, animation sequences/timers, personalized copy, original media and both background songs",
     "verification": "WAV analysis and mocked handler/mixing/mute/policy tests passed; actual browser listening unavailable",
     "volume_adjustment": "All eight playback gains raised approximately 2 dB at user request; background music remains at 35%; original/processed audio files unchanged."
+  },
+  "browser_tab": {
+    "title": "Kaca Beewooop",
+    "icon": "🫴",
+    "favicon": "Self-contained SVG data URL in index.html; no external request"
   }
 }

@@ -1,5 +1,10 @@
 # Second-edition verification
 
+## November 9 update — Browser tab title and icon
+
+- Changed the document title to `Kaca Beewooop` and added a self-contained SVG emoji favicon displaying 🫴. The visible website branding, chapter content and interactions remain unchanged.
+- Standard and portable builds passed; generated HTML metadata checks confirmed the exact title and decoded icon. Live Chrome tab appearance remains unverified.
+
 ## November 9 adjustment — Slightly louder Foley
 
 - Raised all eight effect playback gains by approximately 2 dB (about 26% amplitude), keeping their relative balance. Background music remains at 35%. Audio files, triggers, mute/overlap protections, visuals and animation timings are unchanged.
