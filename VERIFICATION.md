@@ -1,5 +1,21 @@
 # Second-edition verification
 
+## November 9 update — End-of-spread navigation and varied capsule colors
+
+- The magazine’s final spread (or mobile page 6) Next arrow now continues to Chapter 02. Its corner arrow, ArrowRight and forward swipe use the same continuation. The passport’s final spread Next arrow/forward swipe continue to Chapter 04. Earlier page turns, reverse navigation and their original animation durations remain intact.
+- Added an explicit optional completion action to shared page controls. Ordinary reading/archive/final-letter controls do not inherit chapter advancement. Chapter completion uses the navigation sound and a one-advance guard, without a fake extra spread or extra Foley layer.
+- Desktop footer Next is grouped beside Back on the left, outside the bottom-right hosting badge area. Mobile footer structure remains unchanged; book completion also works on phones.
+- Dispensed capsule tops rotate rose → gold → sage → blue on successive activations. Highlights/shadows use the current palette throughout landing/opening. Cream lower halves, existing chamber capsules, reward selection, collection storage, animations and sounds are preserved.
+- Handler checks passed at desktop/phone viewport inputs in both motion modes: all book continuation paths, duplicate/busy guards, intermediate page timings, unchanged ordinary reading boundaries, eight collected rewards, four non-repeating capsule colors and opening-color consistency. Standard and portable builds passed; unrelated source, copy, tab metadata, media and audio match the preceding download.
+- The live browser connection is unavailable. No fresh screenshot, live Netlify deployment or measured viewport/hosting-overlay test is claimed.
+
+## November 9 fix — Music recovery on the first ordinary interaction
+
+- The site still tries audible autoplay immediately. A fresh browser visit may reject it, leaving `sound ready`; this is not evidence that audio has started. Chrome’s policy remains controlling: https://developer.chrome.com/blog/autoplay . No autoplay guarantee or browser-policy bypass is claimed.
+- Moved recovery listeners to capture phase so image controls and dialogs cannot consume the event first. Added pointer-up and touch-end retries for browsers that grant touch activation after pointer-down. Music controls remain excluded, avoiding a first sound-button tap starting and then muting playback.
+- Explicit mute, both background songs, shared effects preference, volume, visuals and all other source/assets are unchanged. Listener cleanup is paired with capture registration.
+- Mocked tests passed for initial rejected autoplay, all five captured gesture types despite stopped child propagation, touch-up recovery, direct music-control exclusion, mute/resume position, both playlist boundaries and cleanup. App/music/effects integration and standard/portable builds passed. No fresh live-browser playback was available.
+
 ## November 9 update — Semantic sound families and interaction cues
 
 - Rechecked CC0 on the eight specific requested source pages, matched all supplied files by sound ID/name, and preserved raw copies. The supplied shutter is byte-for-byte identical to the installed source; its current playback remains unchanged.

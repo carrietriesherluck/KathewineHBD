@@ -42,7 +42,8 @@
     "caption_01_IN_17": "请寻找图文联系（找不到",
     "chapter_heading": "My Baby Girl",
     "chapter_subtitle": "我是你的气场 280 黄黑皮小狼勾",
-    "removed_cover_hint": "psst. the cover opens."
+    "removed_cover_hint": "psst. the cover opens.",
+    "spread_completion": "The final spread/page Next arrow, corner arrow, ArrowRight and forward swipe continue to Chapter 02. Earlier arrows retain page turns; busy/repeated advancement guarded."
   },
   "chinese_typography": {
     "font": "LXGW WenKai Regular / 霞鹜文楷",
@@ -94,7 +95,8 @@
       }
     ],
     "song_dialog": "Uses the same global player, with both tracks selectable; no overlapping player",
-    "waiting_label": "sound ready"
+    "waiting_label": "sound ready",
+    "gesture_recovery": "Capture-phase pointerdown, pointerup, touchend, click and keydown; survives child stopPropagation and retries after touch activation. Music-control exclusion and explicit mute preserved. Immediate autoplay remains browser-policy dependent."
   },
   "chapter03": {
     "status": "Personalized wording, requested deletions and all five photographs implemented; awaiting review approval",
@@ -126,7 +128,8 @@
       "8H / 9N / 9O classes, maths and every lunch break",
       "Grossman and Burnham 深情唱歌",
       "Five birthdays / adultfying and oldifying"
-    ]
+    ],
+    "spread_completion": "The final spread Next arrow or forward swipe continues to Chapter 04; earlier spreads retain their page turns."
   },
   "chapter02": {
     "status": "Personalized copy, eight reward photographs and three archives implemented; awaiting review approval",
@@ -247,7 +250,8 @@
     "illustrations": "All reward illustrations replaced. Existing machine and moving capsule design preserved.",
     "archives": "Rewards 1, 2 and 4 use matching supplied original images; no empty Chapter 02 archive slots remain",
     "verification": "Builds, copy/image mappings, pagination and mocked enlargement/close/focus checks passed; browser screenshots and measured viewport checks unavailable",
-    "photo_enlargement": "All eight reward photographs and three archive images can open a larger, uncropped view; closing returns to the same memory and reading page."
+    "photo_enlargement": "All eight reward photographs and three archive images can open a larger, uncropped view; closing returns to the same memory and reading page.",
+    "capsule_colors": "Dispensed capsule tops cycle rose, gold, sage, blue by draw count, with no consecutive repeats; same color persists through opening. Reward order, collection, timing and sound unchanged."
   },
   "ui_revisions": [
     {
@@ -441,5 +445,9 @@
     "title": "Kaca Beewooop",
     "icon": "🫴",
     "favicon": "Self-contained SVG data URL in index.html; no external request"
+  },
+  "global_navigation": {
+    "desktop_footer": "Next chapter grouped beside Back on the left, clear of the bottom-right hosting badge",
+    "book_next": "Explicit chapter continuation on final magazine/passport spread only; reading/archive/final-letter page controls retain their boundaries"
   }
 }

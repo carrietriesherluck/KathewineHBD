@@ -58,3 +58,5 @@ Images outside Photo Booth can be enlarged without cropping. Interactive illustr
 Eight quiet CC0 Foley effects are bundled for buttons, paper turns, capsules, fortune sticks, saving a photo and opening/reading the letter. The existing sound control mutes both music and effects. See `SOUND-CREDITS.md` for sources, processing and current listening-test limitations.
 
 The expanded sound families distinguish navigation, object/frame selection, playful reveals/stickers, typing and passport stamping. Variants cycle without immediate repeats; the original eight effects remain available. See the expansion section of `SOUND-CREDITS.md` for the mapping and test limits.
+
+At the end of the magazine or passport, the book’s Next arrow continues to the next interactive chapter. Desktop chapter navigation sits beside Back, clear of the bottom-right hosting badge. Dispensed capsules cycle rose, gold, sage and blue.

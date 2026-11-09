@@ -53,3 +53,11 @@ export function createBackgroundAudio(audio:HTMLAudioElement,onStateChange:(stat
   dispose:()=>{disposed=true;request++;audio.removeEventListener('playing',played);audio.removeEventListener('pause',paused);audio.removeEventListener('error',failed);audio.removeEventListener('ended',ended);audio.pause();},
  };
 }
+
+/** Capture the activating gesture before a chapter/dialog consumes it. */
+export function bindMusicGestureResume(target:Document,resume:()=>void){
+ const events=['pointerdown','pointerup','touchend','click','keydown'] as const;
+ const handler=(event:Event)=>{if(event.target instanceof Element&&event.target.closest('[data-music-control]'))return;resume();};
+ for(const name of events)target.addEventListener(name,handler,{capture:true,passive:true});
+ return()=>{for(const name of events)target.removeEventListener(name,handler,true);};
+}

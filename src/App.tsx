@@ -7,7 +7,7 @@ import { resumeChapter } from './chapterProgress';
 import { backgroundPlaylist } from './musicPlaylist';
 import { effectClips } from './effectAssets';
 import { installSoundEffects,playButtonSound,stopSoundEffects } from './soundEffects';
-import { createBackgroundAudio,type BackgroundAudioState } from './backgroundAudio';
+import { bindMusicGestureResume,createBackgroundAudio,type BackgroundAudioState } from './backgroundAudio';
 const Magazine=lazy(()=>import('./scenes/Magazine'));const Capsules=lazy(()=>import('./scenes/Capsules'));const Passport=lazy(()=>import('./scenes/Passport'));const Fortune=lazy(()=>import('./scenes/Fortune'));const PhotoBooth=lazy(()=>import('./scenes/PhotoBooth'));const Letter=lazy(()=>import('./scenes/Letter'));
 const transitions=['connection','page','capsule','stamp','paper','thread','connection'];
 export default function App(){
@@ -21,15 +21,14 @@ export default function App(){
   if(!audio.current)return;
   const effects=installSoundEffects(effectClips);effects.setEnabled(sound);document.addEventListener('click',playButtonSound,true);
   const player=createBackgroundAudio(audio.current,setPlayback,next=>{setSound(next);effects.setEnabled(next);},{tracks:backgroundPlaylist,onTrackChange:setTrackIndex});background.current=player;
-  const resume=(event:Event)=>{if(event.target instanceof Element&&event.target.closest('[data-music-control]'))return;player.resumeFromGesture();};
-  document.addEventListener('pointerdown',resume);document.addEventListener('click',resume);document.addEventListener('keydown',resume);
+  const removeGestureListeners=bindMusicGestureResume(document,()=>player.resumeFromGesture());
   player.setEnabled(sound);
-  return()=>{document.removeEventListener('pointerdown',resume);document.removeEventListener('click',resume);document.removeEventListener('keydown',resume);player.dispose();background.current=null;document.removeEventListener('click',playButtonSound,true);effects.dispose();};
+  return()=>{removeGestureListeners();player.dispose();background.current=null;document.removeEventListener('click',playButtonSound,true);effects.dispose();};
  },[]);
  useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);},[]);
  useEffect(()=>{stopSoundEffects();setSaved(scene);main.current?.focus({preventScroll:true});},[scene,setSaved]);
  function go(index:number){if(!Number.isInteger(index)||index<0||index>lastChapter||transition||index===scene)return;setMenu(false);setTransition(transitions[scene]);timer.current=setTimeout(()=>{setScene(index);setTransition(null);},reduced?40:650);}
- const sceneNodes=[<Call go={()=>go(1)} sound={sound}/>,<Magazine/>,<Capsules/>,<Passport/>,<Fortune/>,<PhotoBooth/>,<Letter replay={()=>go(0)} onMusic={()=>setMusicOpen(true)}/>];
+ const sceneNodes=[<Call go={()=>go(1)} sound={sound}/>,<Magazine onNext={()=>go(2)}/>,<Capsules/>,<Passport onNext={()=>go(4)}/>,<Fortune/>,<PhotoBooth/>,<Letter replay={()=>go(0)} onMusic={()=>setMusicOpen(true)}/>];
  return <div className={`app scene-${scene} ${scene===lastChapter?'final-chapter':''} ${transition?`is-transitioning transition-${transition}`:''}`}>
  <audio ref={audio} preload="auto" autoPlay hidden/>
  <a className="skip-link" href="#chapter-content">Skip to chapter</a>
