@@ -1,8 +1,8 @@
-import { useReducer } from 'react';
+import { useEffect, useReducer } from 'react';
 import { dialogue } from '../content';
 import { PhoneIcon } from '../Art';
 import { artwork } from '../assets';
-import { playSound } from '../soundEffects';
+import { playSound,stopSoundEffects } from '../soundEffects';
 import { ZoomableImage } from '../components';
 import { useTimers, useReducedMotion } from '../lib';
 type State='ringing'|'connecting'|'declined'|'typing'|'first'|'second'|'complete';
@@ -10,6 +10,8 @@ const nextStates:Record<State,State[]>={ringing:['connecting','declined'],connec
 export default function Call({go,sound}:{go:()=>void;sound:boolean}){
  const [state,dispatch]=useReducer((s:State,n:State)=>nextStates[s].includes(n)?n:s,'ringing');const later=useTimers();const reduced=useReducedMotion();
  const answer=(accept:boolean)=>{dispatch(accept?'connecting':'declined');if(sound)playSound('button');const t=reduced?.25:1;later(()=>dispatch('typing'),750*t);later(()=>dispatch('first'),1600*t);later(()=>dispatch('second'),2900*t);later(()=>dispatch('complete'),4100*t);};
+ const typing=state==='typing'||state==='first';
+ useEffect(()=>{if(!typing||!sound)return;playSound('typing');return()=>stopSoundEffects('typing');},[typing,sound]);
  const chat=['typing','first','second','complete'].includes(state);
  return <div className={`call-stage ${chat?'chat-mode':''}`}><div className="desktop-caption"><span className="folder-icon">▱</span><span>online school</span></div><ZoomableImage className="desktop-illustration" src={artwork.desktop} alt="Illustrated old computer, headphones and a school notebook"/><div className="desk-note"><span>note to self:</span><p>she seems funny.<br/>maybe say hello?</p><b>— Pesty</b></div><div className="call-window"><div className="call-titlebar"><span>pesty.exe</span><span>— □ ×</span></div>{!chat?<div className="incoming"><div className="caller-badge">P</div><div><span className="eyebrow">a new connection</span><h2>{dialogue.caller}</h2></div><p role="status">{state==='ringing'?dialogue.incoming:state==='connecting'?dialogue.connecting:dialogue.declined}</p>{state==='ringing'?<div className="call-controls"><button data-sound="handled" onClick={()=>answer(false)} className="decline"><PhoneIcon off/> Decline</button><button data-sound="handled" onClick={()=>answer(true)} className="accept"><PhoneIcon/> Accept</button></div>:<div className="typing-indicator"><i/><i/><i/></div>}<small>我的麦很炸吗</small></div>:<div className="chat-conversation" aria-live="polite"><span className="chat-person">{dialogue.caller} <small>just now</small></span>{state==='typing'?<div className="typing-indicator"><i/><i/><i/></div>:<div className="chat-bubble">{dialogue.callMessages[0]}</div>}{['second','complete'].includes(state)&&<div className="chat-bubble second">{dialogue.callMessages[1]}</div>}{state==='first'&&<div className="typing-indicator"><i/><i/><i/></div>}{state==='complete'&&<><p className="historian">{dialogue.annotation}</p><button className="button primary" onClick={go}>And then, there was us →</button></>}</div>}</div><div className="desktop-taskbar"><span>▦ start</span><span>online ♡</span></div></div>
 }

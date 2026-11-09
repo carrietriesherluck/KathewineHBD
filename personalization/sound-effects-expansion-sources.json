@@ -1,0 +1,119 @@
+{
+  "status": "Expanded sound identities integrated; live audible verification unavailable",
+  "sources": [
+    {
+      "source_id": 792928,
+      "author": "qubodup",
+      "title": "Mouth Pop Short",
+      "url": "https://freesound.org/people/qubodup/sounds/792928/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/792928__qubodup__mouth-pop-short.wav",
+      "original_sha256": "f559f7738d8fc36024a5dd217023536f2cc57a3289323d58a1c900b16ec75920",
+      "use": "Original primary pop retained"
+    },
+    {
+      "source_id": 467951,
+      "author": "benzix2",
+      "title": "UI Button Click",
+      "url": "https://freesound.org/people/benzix2/sounds/467951/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/467951__benzix2__ui-button-click.ogg",
+      "original_sha256": "bfbd551569a14e60728c91e4b5b5100a2b33f3bb647c71407c84ea5c7f17f362",
+      "use": "Tiny navigation clicks; original Ogg retained"
+    },
+    {
+      "source_id": 321083,
+      "author": "BenjaminNelan",
+      "title": "Wooden Click",
+      "url": "https://freesound.org/people/BenjaminNelan/sounds/321083/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/321083__benjaminnelan__wooden-click.wav",
+      "original_sha256": "d2b26b22e1327aa4d7168fb1f1b127029c37df20b53c7a7298aeafb025ab3835",
+      "use": "Photo/frame/object selection"
+    },
+    {
+      "source_id": 669921,
+      "author": "el_boss",
+      "title": "Bubble Pop UI and Game Sounds Multiple Samples",
+      "url": "https://freesound.org/people/el_boss/sounds/669921/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/669921__el_boss__bubble-pop-ui-and-game-sounds-multiple-samples.wav",
+      "original_sha256": "f8063da8d2f010c74f528534ac84ba957aab44fdb754f78d643efe5ab5382012",
+      "use": "Four isolated samples for reveals/stickers; two also vary primary playful buttons"
+    },
+    {
+      "source_id": 841238,
+      "author": "peoplearehappy",
+      "title": "keyboard_typing_loop1.wav",
+      "url": "https://freesound.org/people/peoplearehappy/sounds/841238/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/841238__peoplearehappy__keyboard_typing_loop1.wav",
+      "original_sha256": "c10713931fb62ce06b1d12f4419a599aa827143870b82c553989391ff4dc2ba9",
+      "use": "One short typing-indicator burst, not a loop"
+    },
+    {
+      "source_id": 362622,
+      "author": "kermite607",
+      "title": "Stamp",
+      "url": "https://freesound.org/people/kermite607/sounds/362622/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/362622__kermite607__stamp.wav",
+      "original_sha256": "5d8b236719433cd8863621f405ff20574de35eacaf1e24d3391485552446db69",
+      "use": "Clicking the passport stamp"
+    },
+    {
+      "source_id": 669918,
+      "author": "el_boss",
+      "title": "The Best Bubble Pop Sound For Game and UI",
+      "url": "https://freesound.org/people/el_boss/sounds/669918/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/669918__el_boss__the-best-bubble-pop-sound-for-game-and-ui.wav",
+      "original_sha256": "182c71fc822cafef743f56077445bd27f2826e99eef8db4a07b0d92379e93286",
+      "use": "Alternates with the preserved plastic lid pop for capsule opening"
+    },
+    {
+      "source_id": 871467,
+      "author": "kurumik",
+      "title": "1968 Praktica Super TL Camera Shutter 02",
+      "url": "https://freesound.org/people/kurumik/sounds/871467/",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_rechecked": "2026-11-09",
+      "original": "archive/sound-originals/871467__kurumik__1968-praktica-super-tl-camera-shutter-02.wav",
+      "original_sha256": "c67d4b232bd3675414159ffca3a076d66a1a93815f09a5e8f359f154ceb9d52f",
+      "use": "Same original as the existing shutter; no replacement"
+    }
+  ],
+  "mapping": {
+    "button": "Preserved original pop plus bubble-a and bubble-b, cycling without immediate repeats",
+    "navigation": "467951 Ogg, rates 1.00/0.99/1.01; fallback to primary group only if Vorbis cannot decode",
+    "wood": "321083, rates 1.00/0.99/1.01",
+    "reveal": "Four individual 669921 samples: bubble-a/b/c/d",
+    "typing": "Single 0.670 s burst; follows actual typing indicator state and mute; named cleanup",
+    "stamp": "Single 0.270 s paper stamp on existing stamp button",
+    "pop": "Preserved plastic lid pop and new 669918 bubble, alternating",
+    "preserved": "Magazine, passport page, machine rattle, fortune sticks, photo shutter and letter rustle unchanged"
+  },
+  "shutter_duplicate": {
+    "supplied": "871467__kurumik__1968-praktica-super-tl-camera-shutter-02 (1).wav",
+    "identical_to": "871467__kurumik__1968-praktica-super-tl-camera-shutter-02.wav",
+    "action": "Retained existing processed shutter"
+  },
+  "variant_policy": "Semantic families and round-robin selection, avoiding same source immediately across shared families where possible; pitch differences limited to ±1% for navigation/wood",
+  "mixing": "Existing one-voice player and 160 ms guard retained. UI families cannot interrupt main cues. Main cues suppress generic click; rejected/late sounds are dropped. Typing is one-shot and stops by name.",
+  "verification": "Mock playback/variant/policy/mute/interaction tests and legacy render/timer checks passed. Browser host unavailable; no live listening test claimed."
+}

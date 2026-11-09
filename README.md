@@ -56,3 +56,5 @@ The submitted Chapter 06 letter and 2023 archive are paginated text, preserving 
 Images outside Photo Booth can be enlarged without cropping. Interactive illustrated objects have a separate magnify button. The final letter’s opening memory remains for four seconds; Keep reading skips ahead immediately.
 
 Eight quiet CC0 Foley effects are bundled for buttons, paper turns, capsules, fortune sticks, saving a photo and opening/reading the letter. The existing sound control mutes both music and effects. See `SOUND-CREDITS.md` for sources, processing and current listening-test limitations.
+
+The expanded sound families distinguish navigation, object/frame selection, playful reveals/stickers, typing and passport stamping. Variants cycle without immediate repeats; the original eight effects remain available. See the expansion section of `SOUND-CREDITS.md` for the mapping and test limits.

@@ -418,7 +418,24 @@
     "mixing": "One active voice, quiet gains, 160 ms retrigger guard, 12 ms mute/replacement fade; specialized interactions suppress generic pop",
     "preserved": "Visuals, animation sequences/timers, personalized copy, original media and both background songs",
     "verification": "WAV analysis and mocked handler/mixing/mute/policy tests passed; actual browser listening unavailable",
-    "volume_adjustment": "All eight playback gains raised approximately 2 dB at user request; background music remains at 35%; original/processed audio files unchanged."
+    "volume_adjustment": "All eight playback gains raised approximately 2 dB at user request; background music remains at 35%; original/processed audio files unchanged.",
+    "expansion": {
+      "sources": "personalization/sound-effects-expansion-sources.json",
+      "processing": "personalization/sound-effects-expansion-processing.json",
+      "mapping": {
+        "button": "Preserved original pop plus bubble-a and bubble-b, cycling without immediate repeats",
+        "navigation": "467951 Ogg, rates 1.00/0.99/1.01; fallback to primary group only if Vorbis cannot decode",
+        "wood": "321083, rates 1.00/0.99/1.01",
+        "reveal": "Four individual 669921 samples: bubble-a/b/c/d",
+        "typing": "Single 0.670 s burst; follows actual typing indicator state and mute; named cleanup",
+        "stamp": "Single 0.270 s paper stamp on existing stamp button",
+        "pop": "Preserved plastic lid pop and new 669918 bubble, alternating",
+        "preserved": "Magazine, passport page, machine rattle, fortune sticks, photo shutter and letter rustle unchanged"
+      },
+      "shutter": "New download matches installed original exactly; current sound retained",
+      "preserved": "All original eight processed assets and gains, both background songs, visuals, copy and animation timing",
+      "verification": "Legacy/new interaction and variant/rapid/mute/policy tests passed; live listening unavailable"
+    }
   },
   "browser_tab": {
     "title": "Kaca Beewooop",

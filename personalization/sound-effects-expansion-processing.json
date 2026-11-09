@@ -1,0 +1,170 @@
+[
+  {
+    "effect": "wood",
+    "source_id": 321083,
+    "original": "archive/sound-originals/321083__benjaminnelan__wooden-click.wav",
+    "original_sha256": "d2b26b22e1327aa4d7168fb1f1b127029c37df20b53c7a7298aeafb025ab3835",
+    "asset": "src/assets/audio/effects/wood.wav",
+    "asset_sha256": "4cc7001b6ca56db79444717580c981b65011cd838a5136e8501352f39c766156",
+    "source_excerpt_seconds": [
+      0,
+      0.086
+    ],
+    "duration_seconds": 0.08600907029478458,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -26.17,
+    "playback_gain": 0.27,
+    "maximum_playback_peak_dbfs": -19.37
+  },
+  {
+    "effect": "typing",
+    "source_id": 841238,
+    "original": "archive/sound-originals/841238__peoplearehappy__keyboard_typing_loop1.wav",
+    "original_sha256": "c10713931fb62ce06b1d12f4419a599aa827143870b82c553989391ff4dc2ba9",
+    "asset": "src/assets/audio/effects/typing.wav",
+    "asset_sha256": "02146b6d0b2823466180572b8d69fa570fe468e54791ead2b1575a55262ba619",
+    "source_excerpt_seconds": [
+      0.49,
+      1.16
+    ],
+    "duration_seconds": 0.6700226757369615,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -10.0,
+    "rms_dbfs": -39.19,
+    "playback_gain": 0.18,
+    "maximum_playback_peak_dbfs": -24.89
+  },
+  {
+    "effect": "stamp",
+    "source_id": 362622,
+    "original": "archive/sound-originals/362622__kermite607__stamp.wav",
+    "original_sha256": "5d8b236719433cd8863621f405ff20574de35eacaf1e24d3391485552446db69",
+    "asset": "src/assets/audio/effects/stamp.wav",
+    "asset_sha256": "f47946ea495304033b9dafea14b88028661aa639b7c27578c226c48903cb26a7",
+    "source_excerpt_seconds": [
+      0.02,
+      0.29
+    ],
+    "duration_seconds": 0.27,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -29.75,
+    "playback_gain": 0.34,
+    "maximum_playback_peak_dbfs": -17.37
+  },
+  {
+    "effect": "capsule-bubble",
+    "source_id": 669918,
+    "original": "archive/sound-originals/669918__el_boss__the-best-bubble-pop-sound-for-game-and-ui.wav",
+    "original_sha256": "182c71fc822cafef743f56077445bd27f2826e99eef8db4a07b0d92379e93286",
+    "asset": "src/assets/audio/effects/capsule-bubble.wav",
+    "asset_sha256": "8e8fe4dc343a8e6a16f150bc55d98c68df4d3372feae44aaf7e9111c0f4392e5",
+    "source_excerpt_seconds": [
+      0.025,
+      0.24
+    ],
+    "duration_seconds": 0.21501133786848073,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -20.8,
+    "playback_gain": 0.3273,
+    "maximum_playback_peak_dbfs": -17.7
+  },
+  {
+    "effect": "bubble-a",
+    "source_id": 669921,
+    "original": "archive/sound-originals/669921__el_boss__bubble-pop-ui-and-game-sounds-multiple-samples.wav",
+    "original_sha256": "f8063da8d2f010c74f528534ac84ba957aab44fdb754f78d643efe5ab5382012",
+    "asset": "src/assets/audio/effects/bubble-a.wav",
+    "asset_sha256": "cc8dfc59c60fce7a6ba22b3c949519990fc2e9bc2b2494d0de374a82213e440c",
+    "source_excerpt_seconds": [
+      0.02,
+      0.24
+    ],
+    "duration_seconds": 0.22,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -28.25,
+    "playback_gain": 0.26,
+    "maximum_playback_peak_dbfs": -19.7
+  },
+  {
+    "effect": "bubble-b",
+    "source_id": 669921,
+    "original": "archive/sound-originals/669921__el_boss__bubble-pop-ui-and-game-sounds-multiple-samples.wav",
+    "original_sha256": "f8063da8d2f010c74f528534ac84ba957aab44fdb754f78d643efe5ab5382012",
+    "asset": "src/assets/audio/effects/bubble-b.wav",
+    "asset_sha256": "b032f41fe36d6f0de5904b8c547e179b6796052a4b7ef5d53ffa7342786ffeb8",
+    "source_excerpt_seconds": [
+      2.005,
+      2.255
+    ],
+    "duration_seconds": 0.25002267573696146,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -31.46,
+    "playback_gain": 0.26,
+    "maximum_playback_peak_dbfs": -19.7
+  },
+  {
+    "effect": "bubble-c",
+    "source_id": 669921,
+    "original": "archive/sound-originals/669921__el_boss__bubble-pop-ui-and-game-sounds-multiple-samples.wav",
+    "original_sha256": "f8063da8d2f010c74f528534ac84ba957aab44fdb754f78d643efe5ab5382012",
+    "asset": "src/assets/audio/effects/bubble-c.wav",
+    "asset_sha256": "a14bcbaac677a2f72ddb1d8246b5f2394995d6604e07c1c6d3e93ae07224160b",
+    "source_excerpt_seconds": [
+      5.145,
+      5.415
+    ],
+    "duration_seconds": 0.2700226757369614,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -29.45,
+    "playback_gain": 0.26,
+    "maximum_playback_peak_dbfs": -19.7
+  },
+  {
+    "effect": "bubble-d",
+    "source_id": 669921,
+    "original": "archive/sound-originals/669921__el_boss__bubble-pop-ui-and-game-sounds-multiple-samples.wav",
+    "original_sha256": "f8063da8d2f010c74f528534ac84ba957aab44fdb754f78d643efe5ab5382012",
+    "asset": "src/assets/audio/effects/bubble-d.wav",
+    "asset_sha256": "ed71031955d8789166701883e1445cc37ca0766db69fb7becf3d7acdbf119d3d",
+    "source_excerpt_seconds": [
+      7.63,
+      7.91
+    ],
+    "duration_seconds": 0.28,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "One contiguous isolated sound, mono, 70 Hz rumble reduction, gentle 8.5 kHz rolloff, conservative RMS/peak gain and 2/12 ms fades (25 ms tail for typing)",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -26.13,
+    "playback_gain": 0.26,
+    "maximum_playback_peak_dbfs": -19.7
+  },
+  {
+    "effect": "navigation",
+    "source_id": 467951,
+    "original": "archive/sound-originals/467951__benzix2__ui-button-click.ogg",
+    "original_sha256": "bfbd551569a14e60728c91e4b5b5100a2b33f3bb647c71407c84ea5c7f17f362",
+    "asset": "src/assets/audio/effects/navigation.ogg",
+    "asset_sha256": "bfbd551569a14e60728c91e4b5b5100a2b33f3bb647c71407c84ea5c7f17f362",
+    "source_excerpt_seconds": [
+      0,
+      0.123
+    ],
+    "duration_seconds": 0.123,
+    "format": "Original optimized Ogg Vorbis",
+    "processing": "Original 123 ms / 9.8 KB clip retained unchanged; decoded by Web Audio. No additional lossy conversion. Primary pop is a fallback if Vorbis is unsupported.",
+    "playback_gain": 0.25
+  }
+]

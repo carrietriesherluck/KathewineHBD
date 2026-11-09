@@ -1,5 +1,15 @@
 # Second-edition verification
 
+## November 9 update — Semantic sound families and interaction cues
+
+- Rechecked CC0 on the eight specific requested source pages, matched all supplied files by sound ID/name, and preserved raw copies. The supplied shutter is byte-for-byte identical to the installed source; its current playback remains unchanged.
+- Added four isolated bubble variants, a tiny navigation click, wood selection click, short typing burst, stamp impact and alternative capsule bubble. Original eight processed sounds and established gains are unchanged. The capsule pop now alternates old/new recordings; playful primary buttons retain the original plus two quiet variants. No full multi-sample recording is played.
+- Sound families follow interaction type. Navigation and wood use only ±1% rate variation; variants cycle without immediate repeats and avoid shared source repeats across families when possible. One active voice, the 160 ms guard, specialized-click exclusion, mute fades, missing/rejected/late playback handling and music behavior are retained. Vorbis decoding has a primary-click fallback.
+- The typing cue is one-shot, follows the actual indicator state, does not restart between messages, and stops by name when typing ends or sound is muted. Stamp clicks play stamp only and preserve the keepsake modal. Photo Booth tabs/frame/photo/sticker/Save assignments were checked; Save remains shutter only.
+- Legacy eight-cue, keyboard/swipe, invalid/busy, Save and animation-timer checks passed. Prior/new rendered structures match across checked desktop/phone chapter states after excluding audio-only attributes/callbacks. New tests covered 18 repeated plays per variant family, cross-family repeat avoidance, all mappings, subtle rate bounds, one-voice timing, mute, named cleanup, codec fallback and control exclusion. Browser/audio APIs were mocked.
+- Styles, personalized copy, tab metadata, visuals, existing media and all original eight processed effects match the preceding source ZIP. Standard and portable builds passed; all 17 effect files (16 WAV + 1 Ogg), both music recordings and prior images/font are embedded. Sources, license links and processing details are in `SOUND-CREDITS.md` and the expansion JSON files.
+- Browser access remains unavailable. No fresh screenshot, actual-website listening test or subjective audition is claimed.
+
 ## November 9 update — Browser tab title and icon
 
 - Changed the document title to `Kaca Beewooop` and added a self-contained SVG emoji favicon displaying 🫴. The visible website branding, chapter content and interactions remain unchanged.
