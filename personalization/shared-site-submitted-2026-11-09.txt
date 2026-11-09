@@ -1,0 +1,249 @@
+SITE-01 — Browser tab title
+Currently displayed: "Seventeen, Katherine."
+Edit:
+SITE-02 — Website description — browser/search metadata
+Currently displayed: "Seventeen, Katherine. A little love letter from your wifey. An interactive birthday storybook."
+Edit:
+SITE-03 — Keyboard navigation — skip link, visible when focused
+Currently displayed: "Skip to chapter"
+Edit:
+SITE-04 — Header — website name; clicking opens the chapter menu
+Currently displayed: "Seventeen, Katherine."
+Edit:
+SITE-05 — Header — subtitle beneath the website name
+Currently displayed: "a little love letter from your wifey"
+Edit:
+SITE-06 — Desktop header — collection label
+Currently displayed: "the pesticide collection"
+Edit:
+SITE-07 — Desktop header — issue annotation
+Currently displayed: "handmade for Cidy · issue 017"
+Edit:
+SITE-08 — Header music button — symbol
+Currently displayed: "♫"
+Edit:
+SITE-09 — Header music button — playing state
+Currently displayed: "sound on"
+Edit:
+SITE-10 — Header music button — muted state
+Currently displayed: "sound off"
+Edit:
+SITE-11 — Header music button — waiting for playback or a user gesture
+Currently displayed: "tap for sound"
+Edit:
+SITE-12 — Header music button — playback error state
+Currently displayed: "retry sound"
+Edit:
+SITE-13 — Header music button — accessibility label and tooltip while playing
+Currently displayed: "Turn music and sound off"
+Edit:
+SITE-14 — Header music button — accessibility label while stopped
+Currently displayed: "Play background music"
+Edit:
+SITE-15 — Header music button — tooltip while stopped
+Currently displayed: "Tap to play background music"
+Edit:
+SITE-16 — Header — contents button
+Currently displayed: "contents ≡"
+Edit:
+SITE-17 — Website name and contents button — accessibility label
+Currently displayed: "Open chapter menu"
+Edit:
+SITE-18 — Desktop sidebar — heading
+Currently displayed: "a little world of us"
+Edit:
+SITE-19 — Chapter navigation — Chapter 00 label in sidebar, menu and mobile selector
+Currently displayed: "The call"
+Edit:
+SITE-20 — Chapter navigation — Chapter 01 label in sidebar, menu and mobile selector
+Currently displayed: "The birthday issue"
+Edit:
+SITE-21 — Chapter navigation — Chapter 02 label in sidebar, menu and mobile selector
+Currently displayed: "Memory machine"
+Edit:
+SITE-22 — Chapter navigation — Chapter 03 label in sidebar, menu and mobile selector
+Currently displayed: "Our passport"
+Edit:
+SITE-23 — Chapter navigation — Chapter 04 label in sidebar, menu and mobile selector
+Currently displayed: "A little fortune"
+Edit:
+SITE-24 — Chapter navigation — Chapter 05 label in sidebar, menu and mobile selector
+Currently displayed: "Photo booth"
+Edit:
+SITE-25 — Chapter navigation — Chapter 06 label in sidebar, menu and mobile selector
+Currently displayed: "For my wifey"
+Edit:
+SITE-26 — Chapter navigation — displayed numbers
+Currently displayed: "00"; "01"; "02"; "03"; "04"; "05"; "06"
+Edit:
+SITE-27 — Desktop sidebar — current chapter marker
+Currently displayed: "↢"
+Edit:
+SITE-28 — Desktop sidebar navigation — accessibility labels
+Currently displayed: "Chapters"; "Chapter 0: The call"; "Chapter 1: The birthday issue"; "Chapter 2: Memory machine"; "Chapter 3: Our passport"; "Chapter 4: A little fortune"; "Chapter 5: Photo booth"; "Chapter 6: For my wifey"
+Edit:
+SITE-29 — Desktop sidebar calendar — month
+Currently displayed: "November"
+Edit:
+SITE-30 — Desktop sidebar calendar — day
+Currently displayed: "9"
+Edit:
+SITE-31 — Desktop sidebar calendar — weekday and year
+Currently displayed: "Monday, 2026"
+Edit:
+SITE-32 — Desktop sidebar calendar — handwritten message
+Currently displayed: "seventeen looks segzy on you."
+Edit:
+SITE-33 — Desktop sidebar footer — signature
+Currently displayed: "Pesty + Cidy"
+Edit:
+SITE-34 — Desktop sidebar footer — small message
+Currently displayed: "best viewed with your favourite person in mind."
+Edit:
+SITE-35 — Desktop sidebar footer — About button
+Currently displayed: "about this little world"
+Edit:
+SITE-36 — Chapter loading state
+Currently displayed: "opening the next little world…"
+Edit:
+SITE-37 — Bottom navigation — previous chapter button
+Currently displayed: "← back" on desktop; "←" on phones. Accessibility label: "Previous chapter"
+Edit:
+SITE-38 — Bottom navigation — mobile chapter selector
+Currently displayed: "00 / 06 · The call ⌄"; "01 / 06 · The birthday issue ⌄"; "02 / 06 · Memory machine ⌄"; "03 / 06 · Our passport ⌄"; "04 / 06 · A little fortune ⌄"; "05 / 06 · Photo booth ⌄"; "06 / 06 · For my wifey ⌄"
+Edit:
+SITE-39 — Bottom navigation — forward button on Chapter 00
+Currently displayed: "skip intro →" on desktop; "→" on phones. Accessibility label: "Next chapter"
+Edit:
+SITE-40 — Bottom navigation — forward button on Chapters 01–05
+Currently displayed: "next chapter →" on desktop; "→" on phones. Accessibility label: "Next chapter"
+Edit:
+SITE-41 — Bottom navigation — disabled forward button on the final chapter
+Currently displayed: "always, Pesty ♡" on desktop; "♡" on phones. Accessibility label: "Next chapter"
+Edit:
+SITE-42 — Chapter transition — standard message
+Currently displayed: "turning the page…"
+Edit:
+SITE-43 — Chapter transition — message when leaving Photo Booth
+Currently displayed: "for you."
+Edit:
+SITE-44 — Contents dialog — accessibility name
+Currently displayed: "Choose a chapter"
+Edit:
+SITE-45 — Contents dialog — small label
+Currently displayed: "the contents of a friendship"
+Edit:
+SITE-46 — Contents dialog — heading
+Currently displayed: "Our little world."
+Edit:
+SITE-47 — Contents dialog — current chapter annotation
+Currently displayed: "you are here"
+Edit:
+SITE-48 — Contents dialog — other chapter link marker
+Currently displayed: "↗"
+Edit:
+SITE-49 — Music dialog — accessibility name
+Currently displayed: "Our song"
+Edit:
+SITE-50 — Music dialog — small label
+Currently displayed: "our golden thread"
+Edit:
+SITE-51 — Music dialog — Tightrope title; also its playlist button
+Currently displayed: "Tightrope"
+Edit:
+SITE-52 — Music dialog — attribution while Tightrope is selected
+Currently displayed: "The Greatest Showman"
+Edit:
+SITE-53 — Music dialog — All of Me title; also its playlist button
+Currently displayed: "All of Me"
+Edit:
+SITE-54 — Background audio — first recording
+Currently displayed: "The supplied Tightrope recording: ScreenRecording_11-06-2026 18-45-17_1.m4a. Plays throughout the website, followed by All of Me."
+Edit:
+SITE-55 — Background audio — second recording
+Currently displayed: "The supplied All of Me recording: ScreenRecording_11-08-2026 22-30-11_1.m4a. Followed by Tightrope as the playlist repeats."
+Edit:
+SITE-56 — Music dialog — playlist accessibility label
+Currently displayed: "Songs"
+Edit:
+SITE-57 — Music dialog — button while playing
+Currently displayed: "Pause music"
+Edit:
+SITE-58 — Music dialog — button while stopped
+Currently displayed: "Play music"
+Edit:
+SITE-59 — Music dialog — fallback message, only if the playlist is empty
+Currently displayed: "A place is saved for our song. The authorized recording hasn’t been added yet."
+Edit:
+SITE-60 — Music dialog — fallback handwritten message, only if the playlist is empty
+Currently displayed: "The thread is here, even in the quiet."
+Edit:
+SITE-61 — About dialog — accessibility name
+Currently displayed: "About this little world"
+Edit:
+SITE-62 — About dialog — small label
+Currently displayed: "the second edition"
+Edit:
+SITE-63 — About dialog — heading
+Currently displayed: "Made for you."
+Edit:
+SITE-64 — About dialog — first paragraph
+Currently displayed: “Six (not seven) interactive for my favvvvvvv person on the worldddd. Your physical birthday should be at ur front porch by the time u get back from school. Sorry for the delay, there was heavy traffic.”
+Edit:
+SITE-65 — About dialog — second paragraph
+Currently displayed: "Spaces marked “original to come” are waiting for real photographs, artwork, and letters."
+Edit: delete
+SITE-66 — About dialog — third paragraph
+Currently displayed: "Your keepsakes are remembered on this device. Uploaded photos stay in this browser session."
+Edit:
+SITE-67 — About dialog — handwritten signature
+Currently displayed: "Love, your Pesty."
+Edit:
+SITE-68 — Shared dialogs — close button
+Currently displayed: "×". Accessibility label: "Close"
+Edit:
+SITE-69 — Shared reading controls — previous page button
+Currently displayed: "←". Accessibility label: "Previous page"
+Edit:
+SITE-70 — Shared reading controls — page counter
+Currently displayed: "Page 1 / [total pages]", updating with the current page.
+Edit:
+SITE-71 — Shared reading controls — next page button
+Currently displayed: "→". Accessibility label: "Next page"
+Edit:
+SITE-72 — Shared archive viewer — small label
+Currently displayed: "from our personal archives"
+Edit:
+SITE-73 — Shared archive viewer — image link
+Currently displayed: "View full-size original ↗"
+Edit:
+SITE-74 — Shared archive viewer — PDF link, when a PDF is used
+Currently displayed: "Open original document ↗"
+Edit:
+SITE-75 — Shared archive viewer — heading when original media is missing
+Currently displayed: "Original to come"
+Edit:
+SITE-76 — Shared archive viewer — message when original media is missing
+Currently displayed: "Its place in our story is already saved."
+Edit:
+SITE-77 — Shared website background
+Currently displayed: "Warm linen background with a subtle paper-grain texture."
+Edit:
+SITE-78 — Shared desktop sidebar appearance
+Currently displayed: "Sage gingham panel, cream chapter tabs, an olive selected tab, a tilted paper calendar and a separate signature/About area."
+Edit:
+SITE-79 — Shared content frame
+Currently displayed: "Cream paper panel with fine inset borders, a dashed heading divider and a cranberry handwritten chapter number with an underline."
+Edit:
+SITE-80 — Shared dialog appearance
+Currently displayed: "Cream paper dialog with an olive border and offset shadow, over a darkened background."
+Edit:
+SITE-81 — Shared typography
+Currently displayed: "Literata for serif headings, DM Sans for interface and body text, Caveat for handwritten text, and LXGW WenKai / 霞鹜文楷 for Chinese characters."
+Edit:
+SITE-82 — Shared colour palette
+Currently displayed: "Warm cream and linen, sage and olive green, cranberry accents, dusty blue, muted pink and ochre."
+Edit:
+SITE-83 — Shared chapter-transition animations
+Currently displayed: "Expanding connection window after Chapter 00; page wipe after Chapter 01; capsule wipe after Chapter 02; stamp wipe after Chapter 03; paper wipe after Chapter 04; thread wipe after Chapter 05."
+Edit:

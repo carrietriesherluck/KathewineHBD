@@ -78,7 +78,7 @@
     "original_bytes_preserved": true,
     "duration_seconds": 229.416916,
     "volume": 0.35,
-    "startup": "Enabled preference and actual playback separated. Defaults to enabled using katherine-sound-v2; blocked starts retry on the first page gesture or sound-button tap. Explicit mute persists.",
+    "startup": "Starts enabled on every fresh page opening; native autoplay plus immediate play() attempt. If browser policy blocks audible autoplay, retries on first ordinary click/pointer/key interaction. Session mute survives chapter changes; old saved mute does not suppress a new opening.",
     "playlist": [
       {
         "title": "Tightrope",
@@ -93,7 +93,8 @@
         "duration_seconds": 265.171837
       }
     ],
-    "song_dialog": "Uses the same global player, with both tracks selectable; no overlapping player"
+    "song_dialog": "Uses the same global player, with both tracks selectable; no overlapping player",
+    "waiting_label": "sound ready"
   },
   "chapter03": {
     "status": "Personalized wording, requested deletions and all five photographs implemented; awaiting review approval",
@@ -379,6 +380,23 @@
       "2023 Mi-Mis / Sirius Black / Greatest Showman / Gucci and Louis Vuitton / lyrics 完形填空 / big fish / Carrier Wayne"
     ],
     "intentional_reuse": "Opening call dialogue deliberately echoes Chapter 00 at the user’s request",
-    "verification": "Copy, paging, interaction-handler, playlist and build checks passed; live browser screenshot/playback unavailable"
+    "verification": "Copy, paging, interaction-handler, playlist and build checks passed; live browser screenshot/playback unavailable",
+    "echo_hold_seconds": 4,
+    "envelope_preview": "Hidden visually and from accessibility while closed; appears after flap lift and rises from behind the front panel on opening. Preview wording preserved."
+  },
+  "shared_image_enlargement": {
+    "scope": "All chapter image content except Photo Booth; reward collection thumbnails retain their revisit action, followed by image enlargement in the reward",
+    "direct_images": "Computer and machine illustrations; magazine interior images; passport spread/keepsake photos; shared archive images",
+    "interactive_artwork": "Separate magnify buttons on magazine/passport covers, fortune vessel and letter envelope preserve original actions",
+    "originals_preserved": true,
+    "verification": "Mocked opening/closing/keyboard/nested-dialog tests and builds passed; live browser unavailable"
+  },
+  "shared_worksheet": {
+    "source": "personalization/shared-site-submitted-2026-11-09.txt",
+    "applied_copy": "personalization/shared-site-applied-content.json",
+    "SITE-32": "seventeen looks\nsegzy on you.",
+    "SITE-64": "Six (not seven) interactive for my favvvvvvv person on the worldddd. Your physical birthday should be at ur front porch by the time u get back from school. Sorry for the delay, there was heavy traffic.",
+    "SITE-65": "deleted",
+    "other_items": "unchanged except separately requested audio startup/timing changes"
   }
 }

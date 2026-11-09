@@ -47,8 +47,10 @@ Semantic controls, visible focus, modal focus trapping, Escape dismissal, option
 
 The active chapter order is 00–06. Photo Booth leads directly to the Final Letter (06). Old saved positions for Our Journey or the former Final Letter both resume at the Final Letter. The removed chapter’s source and illustrations are retained only in archive/removed-journey, outside the active site.
 
-The supplied recordings are bundled in `src/assets/audio/background-music.m4a` (Tightrope) and `src/assets/audio/all-of-me.m4a` (All of Me), and embedded in the portable HTML. One shared player alternates Tightrope → All of Me → Tightrope on repeat. Music waits for the first tap/click or key press if the browser blocks its initial start; explicit mute is remembered. The header and Chapter 06 song dialog control the same player. Volume remains 35%, and playback continues across chapters.
+The supplied recordings are bundled in `src/assets/audio/background-music.m4a` (Tightrope) and `src/assets/audio/all-of-me.m4a` (All of Me), and embedded in the portable HTML. One shared player alternates Tightrope → All of Me → Tightrope on repeat. Music waits for the first tap/click or key press if the browser blocks its initial start; explicit mute lasts for the current page session, and each fresh opening starts with music enabled. The header and Chapter 06 song dialog control the same player. Volume remains 35%, and playback continues across chapters.
 
 Chapter 05 uses six transparent cartoon PNG stickers generated with the built-in image_gen tool. The same assets appear in the tray, landing animation and exported print. See `src/assets/stickers/GENERATION.json` for the final prompts and saved file paths.
 
 The submitted Chapter 06 letter and 2023 archive are paginated text, preserving the cipher, list and historical line breaks. Full Chinese font data is included under `src/assets/fonts/` for reproducible source builds.
+
+Images outside Photo Booth can be enlarged without cropping. Interactive illustrated objects have a separate magnify button. The final letter’s opening memory remains for four seconds; Keep reading skips ahead immediately.

@@ -1,5 +1,31 @@
 # Second-edition verification
 
+## November 9 fix — Letter concealed until envelope opening
+
+- The envelope’s preview paper is now invisible while closed, including its “Some things are too big / for a message bubble.” wording, and is excluded from the closed envelope’s accessibility content.
+- Opening first lifts the flap, then reveals and raises the paper after a 550 ms delay. The paper stays behind the envelope’s front panel during its rise, rather than jumping in front of it. Desktop and phone paper geometry starts fully inside the envelope; compact preview typography fits the exposed upper section.
+- Preserved the exact preview wording, four-second memory page, opening buttons, 1.8-second transition into the full letter, reduced-motion shortcut, reading pages and replay timing. Other chapters, shared copy, audio and source media match the preceding download.
+- Handler checks passed for hidden/open preview states, unchanged text, guarded opening, full-letter transition and replay timer at four viewport inputs in both motion modes. CSS checks confirmed the hidden default, delayed rise and front-panel stacking. Standard and portable builds passed.
+- The live browser connection is unavailable. Animation appearance, fresh screenshots and live viewport measurements remain unverified.
+
+## November 9 update — Shared worksheet, opening audio and four-second memory
+
+- Applied the worksheet’s direct “Currently displayed” edits: calendar message `seventeen looks / segzy on you.` and the exact new About paragraph beginning `Six (not seven) interactive`. Removed the About missing-media paragraph (SITE-65). Other worksheet content and the actual seven-chapter navigation remain unchanged.
+- Chapter 06’s opening memory now stays for four seconds in both motion settings. Keep reading still skips immediately and cancels the automatic transition timer.
+- Each fresh page opening starts with music enabled and immediately attempts audible playback, including when the previous version saved sound off. Added the native autoplay attribute and click recovery alongside pointer/key recovery. Explicit mute remains effective across chapters for the current page session; reopening starts enabled again, as requested. The waiting label is now `sound ready`, without a tap instruction.
+- Browser autoplay policy can still block audible playback. A first ordinary click/tap/key interaction retries automatically; no sound-button-only gate is imposed. See https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay . No browser setting was changed and no autoplay bypass is claimed.
+- Mock media/App checks passed for automatic initial play calls, old saved-mute independence, allowed/blocked playback, click recovery, control exclusion, session mute/resume, both playlist boundaries, one audio element and cleanup. Exact worksheet copy/deletion and four-second/early-skip timer checks passed. Shared enlargement regression checks passed; unrelated source, Photo Booth, personalized chapter copy and original media match the preceding source ZIP.
+- Standard and portable builds passed. All original media, both recordings and the Chinese font remain embedded. The browser connection is unavailable, so audible live playback, fresh screenshots and live viewport measurements remain unverified.
+
+## November 9 update — Longer letter introduction and shared image enlargement
+
+- Chapter 06’s “do you remember?” page now stays for seven seconds, including reduced-motion mode. Keep reading still works immediately. The timer is cancelled when the user leaves that page, preventing an early skip/open from being interrupted later.
+- Reused the complete-image viewer for the Chapter 00 computer illustration, all four magazine photographs/artworks, the Memory Machine illustration, all five passport photographs and their keepsake views, and shared archive images. Existing eight reward/three archive enlargement paths remain available.
+- The magazine cover, passport cover, fortune vessel and envelope have separate magnify buttons beside their existing actions. Their original opening/shaking controls remain functional. Photo Booth source and interactions are unchanged.
+- Shared enlargement supports mouse/touch and Enter/Space, displays the complete original source within the viewport, and closes through the image, Close, Escape or backdrop. Nested dialogs handle Escape and Tab only in the top dialog; closing returns focus to its trigger. Dialog key events do not turn or close the magazine behind the viewer.
+- Mocked handler tests passed for image opening/closing, keyboard controls, nested Escape/focus isolation, the seven-second hold in both motion settings, early-skip timer cancellation, image wiring and unchanged Photo Booth source. Existing Memory Machine reward/archive tests passed again. Standard and portable builds passed.
+- Original personal media, stickers, both recordings and the Chinese font remain embedded unchanged in the portable HTML. The browser host is still unavailable, so no fresh screenshot or live viewport measurement is claimed.
+
 ## November 9 update — Memory Machine photo enlargement
 
 - All eight reward photographs and the three archive images now open a larger view when clicked. The complete original image fits inside the available dialog area with `object-fit: contain`; no source image is changed or cropped.
