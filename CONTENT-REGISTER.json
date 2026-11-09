@@ -398,5 +398,26 @@
     "SITE-64": "Six (not seven) interactive for my favvvvvvv person on the worldddd. Your physical birthday should be at ur front porch by the time u get back from school. Sorry for the delay, there was heavy traffic.",
     "SITE-65": "deleted",
     "other_items": "unchanged except separately requested audio startup/timing changes"
+  },
+  "sound_effects": {
+    "status": "Eight CC0 recordings integrated; live audition unverified",
+    "credits": "SOUND-CREDITS.md",
+    "sources": "personalization/sound-effects-sources.json",
+    "processing": "personalization/sound-effects-processing.json",
+    "originals": "archive/sound-originals",
+    "effects": [
+      "button",
+      "magazine",
+      "passport",
+      "rattle",
+      "pop",
+      "sticks",
+      "shutter",
+      "letter"
+    ],
+    "mixing": "One active voice, quiet gains, 160 ms retrigger guard, 12 ms mute/replacement fade; specialized interactions suppress generic pop",
+    "preserved": "Visuals, animation sequences/timers, personalized copy, original media and both background songs",
+    "verification": "WAV analysis and mocked handler/mixing/mute/policy tests passed; actual browser listening unavailable",
+    "volume_adjustment": "All eight playback gains raised approximately 2 dB at user request; background music remains at 35%; original/processed audio files unchanged."
   }
 }

@@ -54,3 +54,5 @@ Chapter 05 uses six transparent cartoon PNG stickers generated with the built-in
 The submitted Chapter 06 letter and 2023 archive are paginated text, preserving the cipher, list and historical line breaks. Full Chinese font data is included under `src/assets/fonts/` for reproducible source builds.
 
 Images outside Photo Booth can be enlarged without cropping. Interactive illustrated objects have a separate magnify button. The final letter’s opening memory remains for four seconds; Keep reading skips ahead immediately.
+
+Eight quiet CC0 Foley effects are bundled for buttons, paper turns, capsules, fortune sticks, saving a photo and opening/reading the letter. The existing sound control mutes both music and effects. See `SOUND-CREDITS.md` for sources, processing and current listening-test limitations.

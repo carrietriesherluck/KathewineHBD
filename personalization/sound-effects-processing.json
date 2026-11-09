@@ -1,0 +1,154 @@
+[
+  {
+    "effect": "button",
+    "source_id": 792928,
+    "original": "archive/sound-originals/792928__qubodup__mouth-pop-short.wav",
+    "original_sha256": "f559f7738d8fc36024a5dd217023536f2cc57a3289323d58a1c900b16ec75920",
+    "asset": "src/assets/audio/effects/button.wav",
+    "asset_sha256": "c017eadb3d892094e15e2a5cd2c8fe7d13465332e029f4379802bc30e3bb9da9",
+    "source_excerpt_seconds": [
+      0,
+      0.1213125
+    ],
+    "duration_seconds": 0.12131519274376418,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -23.86,
+    "playback_gain": 0.3021,
+    "maximum_playback_peak_dbfs": -18.4
+  },
+  {
+    "effect": "magazine",
+    "source_id": 651514,
+    "original": "archive/sound-originals/651514__1bob__paper.wav",
+    "original_sha256": "6fb6269aff8d6777b2fbdd21acbcb43ffdf716b20d23bbbc872b0c870c3df3f8",
+    "asset": "src/assets/audio/effects/magazine.wav",
+    "asset_sha256": "f6bf7e7a6c2b31d6e4528adbb12e0d286d6074c6cd9589ec7c2518df0eb0b27c",
+    "source_excerpt_seconds": [
+      0,
+      0.47
+    ],
+    "duration_seconds": 0.47,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -28.75,
+    "playback_gain": 0.4029,
+    "maximum_playback_peak_dbfs": -15.9
+  },
+  {
+    "effect": "passport",
+    "source_id": 856497,
+    "original": "archive/sound-originals/856497__xkeril__turning-page-heavy-paper.wav",
+    "original_sha256": "49ff45f0e36a0cb9db12ac3a71f867b85ea0befc9cc35fc663778ff93bed2119",
+    "asset": "src/assets/audio/effects/passport.wav",
+    "asset_sha256": "e0371a6f84e78908a8783f7ba417022f14d528dd26beaaed489273d5608cbf49",
+    "source_excerpt_seconds": [
+      0.27,
+      0.9
+    ],
+    "duration_seconds": 0.63,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -29.18,
+    "playback_gain": 0.3777,
+    "maximum_playback_peak_dbfs": -16.46
+  },
+  {
+    "effect": "rattle",
+    "source_id": 797803,
+    "original": "archive/sound-originals/797803__blueshrimp1235__beads-in-glass-bottle.wav",
+    "original_sha256": "ce5da1b9893a9279d934d18503df2aba5376407e60f311551b3154a092684a95",
+    "asset": "src/assets/audio/effects/rattle.wav",
+    "asset_sha256": "3d68fbf4414b01b9eb13671c0de5ca052bf018dcdc7c715fc1e04191d84553bd",
+    "source_excerpt_seconds": [
+      58.2,
+      58.9
+    ],
+    "duration_seconds": 0.7,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -29.31,
+    "playback_gain": 0.3525,
+    "maximum_playback_peak_dbfs": -17.06
+  },
+  {
+    "effect": "pop",
+    "source_id": 509496,
+    "original": "archive/sound-originals/509496__spacejoe__lid-flip-pop-2.wav",
+    "original_sha256": "d6e06478493e43db019fcabc81a7500eb879ca0763618193aeb9cbab37ea8e50",
+    "asset": "src/assets/audio/effects/pop.wav",
+    "asset_sha256": "21587ee91f08cd356fd1ed6f02f6ef1c58a0b86b1639e5c5cd0c3bf6b955c139",
+    "source_excerpt_seconds": [
+      0.405,
+      0.72
+    ],
+    "duration_seconds": 0.31501133786848073,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -24.77,
+    "playback_gain": 0.3273,
+    "maximum_playback_peak_dbfs": -17.7
+  },
+  {
+    "effect": "sticks",
+    "source_id": 855313,
+    "original": "archive/sound-originals/855313__gammagool__wooden-stick-taps.wav",
+    "original_sha256": "473f839070cab019ab01156a7e8953fab81b2ed3e58fff40f563d311a2ff1ea7",
+    "asset": "src/assets/audio/effects/sticks.wav",
+    "asset_sha256": "fe89610f0e6fb2a13f6007c0e7602a6e5dbf41ea6b2d4b264b650b924c8271f0",
+    "source_excerpt_seconds": [
+      0.055,
+      0.83
+    ],
+    "duration_seconds": 0.7750113378684808,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -38.91,
+    "playback_gain": 0.3525,
+    "maximum_playback_peak_dbfs": -17.06
+  },
+  {
+    "effect": "shutter",
+    "source_id": 871467,
+    "original": "archive/sound-originals/871467__kurumik__1968-praktica-super-tl-camera-shutter-02.wav",
+    "original_sha256": "c67d4b232bd3675414159ffca3a076d66a1a93815f09a5e8f359f154ceb9d52f",
+    "asset": "src/assets/audio/effects/shutter.wav",
+    "asset_sha256": "ebd85ba512e4c1cd3bb43e9c573b89a131b66044ef2f7f32ed020d664e4b0c24",
+    "source_excerpt_seconds": [
+      0,
+      0.255238095
+    ],
+    "duration_seconds": 0.25523809523809526,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -26.36,
+    "playback_gain": 0.3147,
+    "maximum_playback_peak_dbfs": -18.04
+  },
+  {
+    "effect": "letter",
+    "source_id": 353125,
+    "original": "archive/sound-originals/353125__benjaminnelan__paper-rustle.wav",
+    "original_sha256": "00ca487300a31abc667f1e0fc11740d4ac5f5f2a2edff542c24e1b466ced3736",
+    "asset": "src/assets/audio/effects/letter.wav",
+    "asset_sha256": "edf4ef20e5e77c83e69e0a9f084ff58c1db5b163c4caaff630ddd2eaa8e5b35d",
+    "source_excerpt_seconds": [
+      0.2,
+      1.08
+    ],
+    "duration_seconds": 0.88,
+    "format": "44100 Hz mono PCM16 WAV",
+    "processing": "Mono downmix, DC/low-rumble reduction (70 Hz), gentle 8.5 kHz high-frequency rolloff, level to at most -20 dBFS RMS / -8 dBFS peak, 3 ms leading fade and 15–35 ms trailing fade; one contiguous excerpt, no layering",
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -38.3,
+    "playback_gain": 0.4029,
+    "maximum_playback_peak_dbfs": -15.9
+  }
+]

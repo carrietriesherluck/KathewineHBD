@@ -1,0 +1,1 @@
+Original files supplied by Carrie; byte-for-byte copies. Sources, creators, CC0 licenses and processing are documented in ../../SOUND-CREDITS.md and ../../personalization/sound-effects-processing.json.

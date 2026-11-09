@@ -1,5 +1,20 @@
 # Second-edition verification
 
+## November 9 adjustment — Slightly louder Foley
+
+- Raised all eight effect playback gains by approximately 2 dB (about 26% amplitude), keeping their relative balance. Background music remains at 35%. Audio files, triggers, mute/overlap protections, visuals and animation timings are unchanged.
+- Updated the processing register and credits with the new gains; maximum isolated effect peaks remain below approximately -15.8 dBFS. Standard and portable builds passed. Live listening remains unverified.
+
+## November 9 update — Eight CC0 tactile effects
+
+- Integrated the eight user-supplied CC0 Freesound recordings: natural button pop, magazine paper, heavier passport paper, plastic-bead rattle, plastic lid pop, wooden sticks, camera shutter and letter rustle. `SOUND-CREDITS.md` records creators, source/license links, exact excerpts, processing and verification limits. Original bytes are archived unchanged.
+- Prepared one short, contiguous excerpt per sound (0.121–0.880 seconds), with light rumble/high-frequency shaping, conservative levels and fades. Isolated playback peaks are capped at approximately -17.9 dBFS. These are measured levels, not a listening-quality claim.
+- One shared effects player prevents stacked sounds, suppresses rapid repeats and keeps ordinary button pops from interrupting main effects. Specialized handlers suppress the generic pop. Mute stops effects immediately with a short fade; both music controls retain their shared preference. Rejected/missing/late playback is dropped. Effects preload silently and resume their AudioContext only in an interaction.
+- Main sounds trigger at the existing valid action starts; keyboard/swipe page turns are covered. Replaced the old call oscillator beeps instead of layering them. Preserved all visuals, styles, copy, assets, animation sequences/timers, reading behavior and Photo Booth export.
+- Mocked playback tests passed for all eight clips, preload silence, gesture resume, rejected/slow/stale starts, mute, cleanup, one-voice handoff, 160 ms retrigger guard, missing-asset isolation and specialized/disabled controls. Interaction tests passed across all eight triggers and both motion settings, keyboard/swipe paths, busy/boundary guards and PNG saving. Checked desktop/phone render structures match the preceding chapter states after excluding audio-only attributes/callbacks.
+- Existing playlist/startup checks and standard/portable builds passed. Verified that every processed effect, both full recordings, all prior photos/stickers and the Chinese font are embedded in the portable HTML.
+- Live browser access was unavailable. A native browser attempt stalled and was not repeated. No actual-website listening test, fresh screenshot or subjective audition is claimed; these remain unverified.
+
 ## November 9 fix — Letter concealed until envelope opening
 
 - The envelope’s preview paper is now invisible while closed, including its “Some things are too big / for a message bubble.” wording, and is excluded from the closed envelope’s accessibility content.

@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-09",
+  "status": "All eight user-supplied originals processed and integrated; live listening test unavailable",
+  "verification": "Original hashes and WAV analysis, mocked playback/mute/concurrency/interaction tests and source/visual-structure comparisons passed. Live browser host unavailable and native app test stalled; no website listening test claimed.",
+  "sources": [
+    {
+      "id": "SFX-01",
+      "use": "General buttons",
+      "title": "Mouth Pop Short",
+      "author": "qubodup",
+      "sound_id": 792928,
+      "url": "https://freesound.org/people/qubodup/sounds/792928/",
+      "duration_seconds": 0.121,
+      "format": "WAV",
+      "proposed_asset": "button.wav",
+      "note": "A recorded mouth pop, offered as an organic rounded-boink candidate; Play once per completed button activation, never on hover or in addition to a chapter-specific effect.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/button.wav",
+      "original": "archive/sound-originals/792928__qubodup__mouth-pop-short.wav",
+      "original_sha256": "f559f7738d8fc36024a5dd217023536f2cc57a3289323d58a1c900b16ec75920",
+      "source_excerpt_seconds": [
+        0,
+        0.1213125
+      ],
+      "processed_duration_seconds": 0.12131519274376418
+    },
+    {
+      "id": "SFX-02",
+      "use": "Magazine",
+      "title": "paper",
+      "author": "1bob",
+      "sound_id": 651514,
+      "url": "https://freesound.org/people/1bob/sounds/651514/",
+      "duration_seconds": 0.509,
+      "format": "WAV",
+      "proposed_asset": "magazine.wav",
+      "note": "One short page flip at a valid page-turn start; reuse for magazine opening/closing if suitable. Invalid/busy/boundary actions stay silent.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/magazine.wav",
+      "original": "archive/sound-originals/651514__1bob__paper.wav",
+      "original_sha256": "6fb6269aff8d6777b2fbdd21acbcb43ffdf716b20d23bbbc872b0c870c3df3f8",
+      "source_excerpt_seconds": [
+        0,
+        0.47
+      ],
+      "processed_duration_seconds": 0.47
+    },
+    {
+      "id": "SFX-03",
+      "use": "Passport",
+      "title": "Turning page (heavy paper)",
+      "author": "xkeril",
+      "sound_id": 856497,
+      "url": "https://freesound.org/people/xkeril/sounds/856497/",
+      "duration_seconds": 3.186,
+      "format": "WAV",
+      "proposed_asset": "passport.wav",
+      "note": "Select a single clean, weightier flip excerpt; trigger at a valid spread-turn start. Do not play the full recording if it extends beyond the animation.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/passport.wav",
+      "original": "archive/sound-originals/856497__xkeril__turning-page-heavy-paper.wav",
+      "original_sha256": "49ff45f0e36a0cb9db12ac3a71f867b85ea0befc9cc35fc663778ff93bed2119",
+      "source_excerpt_seconds": [
+        0.27,
+        0.9
+      ],
+      "processed_duration_seconds": 0.63
+    },
+    {
+      "id": "SFX-04",
+      "use": "Memory machine activation",
+      "title": "beads in glass bottle",
+      "author": "blueshrimp1235",
+      "sound_id": 797803,
+      "url": "https://freesound.org/people/blueshrimp1235/sounds/797803/",
+      "duration_seconds": 63.637,
+      "format": "WAV",
+      "proposed_asset": "rattle.wav",
+      "note": "Physical plastic beads inside glass; a substitute candidate for full-sized plastic capsule balls, not a recording of an actual capsule machine. One playback when dispense begins.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/rattle.wav",
+      "original": "archive/sound-originals/797803__blueshrimp1235__beads-in-glass-bottle.wav",
+      "original_sha256": "ce5da1b9893a9279d934d18503df2aba5376407e60f311551b3154a092684a95",
+      "source_excerpt_seconds": [
+        58.2,
+        58.9
+      ],
+      "processed_duration_seconds": 0.7
+    },
+    {
+      "id": "SFX-05",
+      "use": "Memory capsule reveal",
+      "title": "Lid Flip/ Pop - 2.wav",
+      "author": "SpaceJoe",
+      "sound_id": 509496,
+      "url": "https://freesound.org/people/SpaceJoe/sounds/509496/",
+      "duration_seconds": 1.078,
+      "format": "WAV",
+      "proposed_asset": "pop.wav",
+      "note": "One plastic lid pop, trimmed around the transient with a short fade; trigger once when capsule opening begins.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/pop.wav",
+      "original": "archive/sound-originals/509496__spacejoe__lid-flip-pop-2.wav",
+      "original_sha256": "d6e06478493e43db019fcabc81a7500eb879ca0763618193aeb9cbab37ea8e50",
+      "source_excerpt_seconds": [
+        0.405,
+        0.72
+      ],
+      "processed_duration_seconds": 0.31501133786848073
+    },
+    {
+      "id": "SFX-06",
+      "use": "Fortune draw",
+      "title": "Wooden Stick Taps",
+      "author": "GammaGool",
+      "sound_id": 855313,
+      "url": "https://freesound.org/people/GammaGool/sounds/855313/",
+      "duration_seconds": 3.791,
+      "format": "WAV",
+      "proposed_asset": "sticks.wav",
+      "note": "Actual thin wooden sticks tapping; with no repeated synthetic layering. Trigger once when shaking starts; no second sound for the same draw.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/sticks.wav",
+      "original": "archive/sound-originals/855313__gammagool__wooden-stick-taps.wav",
+      "original_sha256": "473f839070cab019ab01156a7e8953fab81b2ed3e58fff40f563d311a2ff1ea7",
+      "source_excerpt_seconds": [
+        0.055,
+        0.83
+      ],
+      "processed_duration_seconds": 0.7750113378684808
+    },
+    {
+      "id": "SFX-07",
+      "use": "Photo Booth Save",
+      "title": "1968 Praktica Super TL Camera Shutter 02",
+      "author": "kurumik",
+      "sound_id": 871467,
+      "url": "https://freesound.org/people/kurumik/sounds/871467/",
+      "duration_seconds": 0.255,
+      "format": "WAV",
+      "proposed_asset": "shutter.wav",
+      "note": "One brief physical camera shutter when a ready composition starts saving. Failed/disabled/duplicate export attempts stay silent.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/shutter.wav",
+      "original": "archive/sound-originals/871467__kurumik__1968-praktica-super-tl-camera-shutter-02.wav",
+      "original_sha256": "c67d4b232bd3675414159ffca3a076d66a1a93815f09a5e8f359f154ceb9d52f",
+      "source_excerpt_seconds": [
+        0,
+        0.255238095
+      ],
+      "processed_duration_seconds": 0.25523809523809526
+    },
+    {
+      "id": "SFX-08",
+      "use": "Final letter",
+      "title": "Paper Rustle",
+      "author": "BenjaminNelan",
+      "sound_id": 353125,
+      "url": "https://freesound.org/people/BenjaminNelan/sounds/353125/",
+      "duration_seconds": 1.129,
+      "format": "WAV",
+      "proposed_asset": "letter.wav",
+      "note": "One short paper rustle when opening begins; align with the existing motion without changing its timing. May be reused for full-letter page turns, one sound per valid turn.",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "Installed from user-supplied original; processed excerpt and gain documented",
+      "asset": "src/assets/audio/effects/letter.wav",
+      "original": "archive/sound-originals/353125__benjaminnelan__paper-rustle.wav",
+      "original_sha256": "00ca487300a31abc667f1e0fc11740d4ac5f5f2a2edff542c24e1b466ced3736",
+      "source_excerpt_seconds": [
+        0.2,
+        1.08
+      ],
+      "processed_duration_seconds": 0.88
+    }
+  ]
+}
