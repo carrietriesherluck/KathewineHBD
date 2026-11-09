@@ -244,3 +244,6 @@
 
 /* Keep desktop chapter navigation clear of the hosting badge at bottom right. */
 @media(min-width:801px){.scene-footer{justify-content:flex-start;gap:18px}.scene-footer>button:last-child{text-align:left}}
+
+/* Match non-square sticker proportions during landing and in the exported print. */
+.sticker-landing .booth-sticker{object-fit:contain}

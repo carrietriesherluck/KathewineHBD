@@ -4,7 +4,7 @@ import { playSound } from '../soundEffects';
 import { Modal } from '../components';
 import { photos } from '../content';
 import { stickerImages,photoBoothDimensions } from '../photoBoothAssets';
-import { photoLayout,stickerPlacement,moveSticker,defaultCaption,frameColors,initialCaption,initialStickers,stickerKinds,type Sticker,type StickerKind } from '../photoBoothModel';
+import { photoLayout,stickerPlacement,stickerDrawSize,moveSticker,defaultCaption,frameColors,initialCaption,initialStickers,stickerKinds,type Sticker,type StickerKind } from '../photoBoothModel';
 import { downloadBlob, useStored, useViewport } from '../lib';
 const assetCache=new Map<string,Promise<HTMLImageElement>>();
 function loadImage(src:string){if(!assetCache.has(src))assetCache.set(src,new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=src;}));return assetCache.get(src)!;}
@@ -26,7 +26,7 @@ export default function PhotoBooth(){
   ctx.textAlign='center';ctx.fillStyle='#25456e';const text=caption||defaultCaption;const textWidth=print.width-100;let size=44;
   ctx.font=`italic ${size}px Georgia,"LXGW WenKai",serif`;while(ctx.measureText(text).width>textWidth&&size>14){size--;ctx.font=`italic ${size}px Georgia,"LXGW WenKai",serif`;}
   ctx.fillText(text,print.width/2,print.captionY,textWidth);ctx.font='14px sans-serif';ctx.letterSpacing='3px';ctx.fillText('Pesticide Nov 2026',print.width/2,print.footerY,textWidth);ctx.letterSpacing='0px';
-  for(const s of stickers){if(s.id===landing?.id)continue;const img=await stickerImage(s.kind);const placed=stickerPlacement(s,print);ctx.save();ctx.translate(placed.x,placed.y);ctx.rotate(s.angle*Math.PI/180);ctx.shadowColor='#25456e22';ctx.shadowBlur=8;ctx.shadowOffsetY=6;ctx.drawImage(img,-placed.size/2,-placed.size/2,placed.size,placed.size);ctx.restore();}
+  for(const s of stickers){if(s.id===landing?.id)continue;const img=await stickerImage(s.kind);const placed=stickerPlacement(s,print);ctx.save();ctx.translate(placed.x,placed.y);ctx.rotate(s.angle*Math.PI/180);ctx.shadowColor='#25456e22';ctx.shadowBlur=8;ctx.shadowOffsetY=6;const drawn=stickerDrawSize(img.width,img.height,placed.size);ctx.drawImage(img,-drawn.width/2,-drawn.height/2,drawn.width,drawn.height);ctx.restore();}
   if(active&&canvas.current){canvas.current.width=print.width;canvas.current.height=print.height;canvas.current.getContext('2d')!.drawImage(off,0,0);setReady(true);if(failed)setStatus('That photograph couldn’t be loaded. Try choosing a local image.');}
  }
  draw().catch(()=>{if(active)setStatus('The composition couldn’t be drawn. Please try another photo.');});return()=>{active=false;};},[photo,uploaded,frame,caption,stickers,landing]);

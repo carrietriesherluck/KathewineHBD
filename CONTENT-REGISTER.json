@@ -290,7 +290,7 @@
       "penguin",
       "poop"
     ],
-    "sticker_generation": "Built-in image_gen; transparent cartoon PNGs; src/assets/stickers/GENERATION.json contains final prompts and saved paths",
+    "sticker_generation": "Built-in image_gen; six soft hand-drawn transparent PNGs based on user references. Exact prompts, reference paths, output paths and hashes in src/assets/stickers/GENERATION.json.",
     "removed": [
       "Empty-photo captions and selected-label overlay",
       "Default heart",
@@ -306,7 +306,10 @@
       "Clarinet video calls / mirrored heart gesture / demonic filter",
       "SOIS ghost house costumes"
     ],
-    "verification": "Builds and mock canvas/interaction/export checks passed; fresh browser screenshot and live viewport measurement unavailable"
+    "verification": "Native-alpha and complete-subject checks plus six-image aspect/canvas/PNG-flow/editor checks passed. Live browser preview unavailable.",
+    "sticker_style": "Faceless periwinkle bow, painted heart crown, crayon star cluster, pink flower and tan poop; grey baby penguin with minimal natural eyes/beak and a small envelope.",
+    "sticker_archive": "archive/stickers-before-soft-doodles; previous pack preserved but excluded from active builds",
+    "sticker_rendering": "Preserves native aspect ratio in tray, landing and canvas/export; six keys, stored placements and controls unchanged"
   },
   "chapter04": {
     "status": "Personalized introduction and all six fortunes implemented; awaiting review approval",

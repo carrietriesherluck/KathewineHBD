@@ -24,6 +24,11 @@ export function photoLayout(width:number,height:number){
  return {width:Math.ceil(w+130),height:Math.ceil(h+230),photo:{x:65,y:65,width:w,height:h},captionY:65+h+70,footerY:65+h+125};
 }
 
+export function stickerDrawSize(width:number,height:number,size:number){
+ const scale=size/Math.max(width,height);
+ return {width:width*scale,height:height*scale};
+}
+
 export type PrintLayout=ReturnType<typeof photoLayout>;
 export function stickerPlacement(sticker:Sticker,layout:PrintLayout){
  const angle=sticker.angle*Math.PI/180;

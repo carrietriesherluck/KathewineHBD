@@ -1,5 +1,13 @@
 # Second-edition verification
 
+## November 9 update — Soft reference-led Photo Booth stickers
+
+- Replaced the six active sticker PNGs using the built-in image_gen tool and the user’s six supplied style references. The bow, heart crown, star cluster, flower and poop have no faces. The penguin has only minimal natural eyes/beak, a small periwinkle bow and a heart envelope, matching the gentle reference style.
+- Preserved the native generated alpha without cropping or background removal. All PNGs have real transparency and complete opaque subjects inside the canvas. Generation prompts, input roles, saved/source paths and hashes are in `src/assets/stickers/GENERATION.json`; old sticker originals and user reference JPEGs are archived unchanged outside the active app.
+- The painted heart crown is a wide PNG. Sticker canvas rendering now fits each native aspect ratio within its existing size, and the landing image uses contain; it does not stretch the crown into a square. Existing six keys, saved placements, drag, keyboard, rotation/size, frame choices, captions and photo-shaped export remain intact.
+- Mock canvas/editor checks passed for all six new asset mappings and proportions, three original photos at four viewport inputs, add/remove/size/rotate, landing/export guard, caption/frame controls, portrait uploads/rejection and PNG export flow. Unrelated source, chapter copy, audio, tab metadata and original personal media match the preceding delivery. Standard and portable builds passed; the new six PNGs are embedded and the retired active PNGs are absent from the portable build.
+- Generated images were visually inspected directly. The live browser connection remains unavailable, so no fresh website screenshot or live canvas/PNG rendering is claimed.
+
 ## November 9 update — End-of-spread navigation and varied capsule colors
 
 - The magazine’s final spread (or mobile page 6) Next arrow now continues to Chapter 02. Its corner arrow, ArrowRight and forward swipe use the same continuation. The passport’s final spread Next arrow/forward swipe continue to Chapter 04. Earlier page turns, reverse navigation and their original animation durations remain intact.

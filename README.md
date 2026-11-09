@@ -49,7 +49,7 @@ The active chapter order is 00–06. Photo Booth leads directly to the Final Let
 
 The supplied recordings are bundled in `src/assets/audio/background-music.m4a` (Tightrope) and `src/assets/audio/all-of-me.m4a` (All of Me), and embedded in the portable HTML. One shared player alternates Tightrope → All of Me → Tightrope on repeat. Music waits for the first tap/click or key press if the browser blocks its initial start; explicit mute lasts for the current page session, and each fresh opening starts with music enabled. The header and Chapter 06 song dialog control the same player. Volume remains 35%, and playback continues across chapters.
 
-Chapter 05 uses six transparent cartoon PNG stickers generated with the built-in image_gen tool. The same assets appear in the tray, landing animation and exported print. See `src/assets/stickers/GENERATION.json` for the final prompts and saved file paths.
+Chapter 05 uses six transparent, soft hand-drawn PNG stickers generated with the built-in image_gen tool from Carrie’s references. The same assets appear in the tray, landing animation and exported print. See `src/assets/stickers/GENERATION.json` for the final prompts and saved file paths.
 
 The submitted Chapter 06 letter and 2023 archive are paginated text, preserving the cipher, list and historical line breaks. Full Chinese font data is included under `src/assets/fonts/` for reproducible source builds.
 
@@ -60,3 +60,5 @@ Eight quiet CC0 Foley effects are bundled for buttons, paper turns, capsules, fo
 The expanded sound families distinguish navigation, object/frame selection, playful reveals/stickers, typing and passport stamping. Variants cycle without immediate repeats; the original eight effects remain available. See the expansion section of `SOUND-CREDITS.md` for the mapping and test limits.
 
 At the end of the magazine or passport, the book’s Next arrow continues to the next interactive chapter. Desktop chapter navigation sits beside Back, clear of the bottom-right hosting badge. Dispensed capsules cycle rose, gold, sage and blue.
+
+The current Photo Booth sticker pack uses faceless object doodles and a minimal baby penguin. A wide heart crown keeps its natural proportions in the editor, landing animation and PNG export. Older sticker versions remain archived outside the active app.
